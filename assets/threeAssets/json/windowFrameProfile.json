@@ -1,0 +1,10 @@
+[
+    {
+        "imgUrl": "assets/threeAssets/thumbnails/windowframeProfiles/001.jpg",
+        "vertexDataURL": "./assets/threeAssets/json/windowFrameDatas/001.json"
+    },
+    {
+        "imgUrl": "assets/threeAssets/thumbnails/windowframeProfiles/002.jpg",
+        "vertexDataURL": "./assets/threeAssets/json/windowFrameDatas/002.json"
+    }
+]

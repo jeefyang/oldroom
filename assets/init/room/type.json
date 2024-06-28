@@ -1,0 +1,94 @@
+[
+    {
+        "name": "客厅",
+        "floorNum": 1
+    },
+    {
+        "name": "客餐厅",
+        "floorNum": 0
+    },
+    {
+        "name": "餐厅",
+        "floorNum": 2
+    },
+    {
+        "name": "厨房",
+        "floorNum": 2
+    },
+    {
+        "name": "卫生间",
+        "floorNum": 2
+    },
+    {
+        "name": "主卧",
+        "floorNum": 0
+    },
+    {
+        "name": "次卧",
+        "floorNum": 0
+    },
+    {
+        "name": "阳台",
+        "floorNum": 0
+    },
+    {
+        "name": "露台（无顶）",
+        "floorNum": 0
+    },
+    {
+        "name": "书房",
+        "floorNum": 0
+    },
+    {
+        "name": "儿童房",
+        "floorNum": 0
+    },
+    {
+        "name": "老人房",
+        "floorNum": 0
+    },
+    {
+        "name": "客卧",
+        "floorNum": 0
+    },
+    {
+        "name": "储物间",
+        "floorNum": 0
+    },
+    {
+        "name": "多功能室",
+        "floorNum": 0
+    },
+    {
+        "name": "步入式衣柜",
+        "floorNum": 0
+    },
+    {
+        "name": "玄关",
+        "floorNum": 1
+    },
+    {
+        "name": "走廊",
+        "floorNum": 1
+    },
+    {
+        "name": "门厅",
+        "floorNum": 1
+    },
+    {
+        "name": "起居室",
+        "floorNum": 1
+    },
+    {
+        "name": "影视间",
+        "floorNum": 0
+    },
+    {
+        "name": "入户花园",
+        "floorNum": 1
+    },
+    {
+        "name": "外景",
+        "floorNum": 1
+    }
+]

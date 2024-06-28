@@ -1,0 +1,123 @@
+[
+    {
+        "name": "单开门",
+        "icon": "",
+        "type": "door",
+        "plankType": "normal",
+        "svgUrl": "",
+        "size": {
+            "width": 800,
+            "height": 200,
+            "height3D": 2200
+        },
+        "url3D": ""
+    },
+    {
+        "name": "双开门",
+        "icon": "",
+        "plankType": "twoDoor",
+        "type": "door",
+        "svgUrl": "",
+        "size": {
+            "width": 800,
+            "height": 200,
+            "height3D": 1800
+        },
+        "url3D": ""
+    },
+    {
+        "name": "子母门",
+        "icon": "",
+        "type": "door",
+        "plankType": "twoDoor",
+        "svgUrl": "",
+        "size": {
+            "width": 800,
+            "height": 200,
+            "height3D": 1800
+        },
+        "url3D": ""
+    },
+    {
+        "name": "移门",
+        "icon": "",
+        "type": "door",
+        "plankType": "pullDoor",
+        "svgUrl": "",
+        "size": {
+            "width": 800,
+            "height": 200,
+            "height3D": 1800
+        },
+        "url3D": ""
+    },
+    {
+        "name": "窗",
+        "icon": "",
+        "type": "win",
+        "plankType": "normal",
+        "svgUrl": "",
+        "size": {
+            "width": 800,
+            "height": 200,
+            "height3D": 1800
+        },
+        "floorHeight": 800,
+        "url3D": ""
+    },
+    {
+        "name": "飘窗",
+        "icon": "",
+        "type": "win",
+        "plankType": "bayWin",
+        "svgUrl": "",
+        "size": {
+            "width": 800,
+            "height": 200,
+            "height3D": 1800
+        },
+        "floorHeight": 800,
+        "url3D": ""
+    },
+    {
+        "name": "飘窗",
+        "icon": "",
+        "type": "win",
+        "plankType": "bayWin",
+        "svgUrl": "",
+        "size": {
+            "width": 800,
+            "height": 200,
+            "height3D": 1800
+        },
+        "floorHeight": 800,
+        "url3D": ""
+    },
+    {
+        "name": "L型窗",
+        "icon": "",
+        "type": "LWin",
+        "size": {
+            "width": 800,
+            "height": 200,
+            "height3D": 1800
+        },
+        "floorHeight": 800
+    },
+    {
+        "name": "转角飘窗",
+        "icon": "",
+        "type": "cornerWin",
+        "LDepth": 1600,
+        "LWidth": 1600,
+        "DDepth": 1600,
+        "DWidth": 1600,
+        "floorHeight": 800
+    },
+    {
+        "name": "U型窗",
+        "icon": "",
+        "type": "UWin",
+        "floorHeight": 800
+    }
+]

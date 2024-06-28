@@ -1,0 +1,2954 @@
+{
+    "meta": {
+        "magic": "3614ec83716a",
+        "version": "0.23",
+        "unit": "meter",
+        "keywords": "Homestyler web designer editor"
+    },
+    "data": [
+        {
+            "Class": "hsw.model.Floorplan",
+            "id": "1",
+            "flag": 0,
+            "parents": [],
+            "children": [
+                "175",
+                "237",
+                "308",
+                "309",
+                "310",
+                "311",
+                "312",
+                "315",
+                "318",
+                "343",
+                "344"
+            ],
+            "userDefined": {},
+            "global_wall_height3d": 2.6,
+            "globalWallWidth": 0.24,
+            "displayLengthUnit": "mm",
+            "displayLengthPrecisionDigits": 0,
+            "displayAreaUnit": "m",
+            "displayAreaPrecisionDigits": 2,
+            "environmentColor": 15329769,
+            "isWallFreezed": false,
+            "underlay": "5"
+        },
+        {
+            "Class": "hsw.model.Room",
+            "id": "175",
+            "flag": 0,
+            "parents": [
+                "1"
+            ],
+            "children": [
+                "178",
+                "179",
+                "180",
+                "276"
+            ],
+            "userDefined": {},
+            "root": "178",
+            "floorMaterial": "176",
+            "ceilingHeight3d": 2.6,
+            "ceilingMaterial": "177"
+        },
+        {
+            "Class": "hsw.model.CoWall",
+            "id": "178",
+            "flag": 0,
+            "parents": [
+                "175"
+            ],
+            "children": [
+                "168",
+                "230"
+            ],
+            "userDefined": {},
+            "edge": "171",
+            "reversed": false,
+            "next": "179",
+            "prev": "276",
+            "moldings": {},
+            "materials": {}
+        },
+        {
+            "Class": "hsw.model.Wall",
+            "id": "171",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "from": "230",
+            "to": "168",
+            "coedge": "178",
+            "width": 0.24,
+            "height3d": 2.6,
+            "wallType": "generic",
+            "isLoadBearing": false
+        },
+        {
+            "Class": "hsw.model.Point",
+            "id": "230",
+            "flag": 0,
+            "parents": [
+                "178",
+                "240",
+                "241",
+                "276"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": -0.1109,
+            "y": 1.7103
+        },
+        {
+            "Class": "hsw.model.Point",
+            "id": "168",
+            "flag": 0,
+            "parents": [
+                "178",
+                "179"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": -4.3509,
+            "y": 1.7103
+        },
+        {
+            "Class": "hsw.model.Content",
+            "id": "309",
+            "flag": 0,
+            "parents": [
+                "1"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": -1.303,
+            "y": 1.1586,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "XScale": 1,
+            "YScale": 1,
+            "ZScale": 1,
+            "XLength": 0.8609,
+            "YLength": 0.8634,
+            "ZLength": 0.7359,
+            "seekId": "f655f082-a36b-4465-b3df-37dc7366a607",
+            "variationId": "f655f082-a36b-4465-b3df-37dc7366a607",
+            "topView": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f655f082-a36b-4465-b3df-37dc7366a607/Top.png",
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f655f082-a36b-4465-b3df-37dc7366a607/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f655f082-a36b-4465-b3df-37dc7366a607/model.gz.bobj",
+            "host": "171",
+            "flip": 0
+        },
+        {
+            "Class": "hsw.model.Door",
+            "id": "312",
+            "flag": 0,
+            "parents": [
+                "1"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": -2.7164,
+            "y": 1.7103,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": -180,
+            "XScale": 1.9958,
+            "YScale": 1,
+            "ZScale": 1,
+            "XLength": 0.9,
+            "YLength": 0.2938,
+            "ZLength": 2.094,
+            "seekId": "6682ab77-48f0-4812-9ea7-5757cc138eb8",
+            "variationId": "6682ab77-48f0-4812-9ea7-5757cc138eb8",
+            "topView": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/svg/swinging_door.svg",
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/6682ab77-48f0-4812-9ea7-5757cc138eb8/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/6682ab77-48f0-4812-9ea7-5757cc138eb8/model.gz.bobj",
+            "host": "171",
+            "flip": 0,
+            "profile": "M-0.45,2.0370310000000003 L-0.45,2.0241890000000002 L-0.45,2.0109190000000003 L-0.45,2.007928 L-0.45,1.993257 L-0.45,1.98995 L-0.45,1.6238890000000001 L-0.45,0 L0.45,0 L0.45,0.366055 L0.45,1.98995 L0.45,2.0046209999999998 L0.45,2.007928 L0.45,2.021198 L0.45,2.0241890000000002 L0.45,2.03703 L0.45,2.0939959999999997 L0.402393,2.0939959999999997 L0.39166100000000004,2.0939959999999997 L0.38081899999999996,2.0939959999999997 L0.37837400000000004,2.0939959999999997 L0.374255,2.0939959999999997 L0.35597900000000005,2.0939959999999997 L0.22406099999999998,2.0939959999999997 L-0.361143,2.0939959999999997 L-0.372722,2.0939959999999997 L-0.37533099999999997,2.0939959999999997 L-0.387696,2.0939959999999997 L-0.390484,2.0939959999999997 L-0.439052,2.0939959999999997 L-0.45,2.0939959999999997 L-0.45,2.0370310000000003",
+            "swing": 0,
+            "_isBottomMaterialEnabled": false,
+            "_isDefaultAlign": false,
+            "pocket": "313"
+        },
+        {
+            "Class": "hsw.model.Pocket",
+            "id": "313",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "08d9d5bc-4d46-4f02-aec5-d1f450278e14",
+            "XSize": 0.066,
+            "YSize": 0.0201,
+            "material": "314"
+        },
+        {
+            "Class": "hsw.model.Material",
+            "id": "314",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "66a5d6cd-d839-4486-802f-dd7150fe7032",
+            "textureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/66a5d6cd-d839-4486-802f-dd7150fe7032/wallfloor.jpg",
+            "textureURIDefault": "",
+            "color": 16777215,
+            "tileSize_x": 1,
+            "tileSize_y": 1,
+            "rotation": 0,
+            "textureRotation": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "normalTexture": "",
+            "normalTileSize_x": 1,
+            "normalTileSize_y": 1,
+            "seamFillerSupported": false,
+            "seamWidth": 0,
+            "seamColor": "FFFFFF",
+            "name": "柚木-中性色"
+        },
+        {
+            "Class": "hsw.model.CoWall",
+            "id": "179",
+            "flag": 0,
+            "parents": [
+                "175"
+            ],
+            "children": [
+                "168",
+                "169"
+            ],
+            "userDefined": {},
+            "edge": "172",
+            "reversed": false,
+            "next": "180",
+            "prev": "178",
+            "moldings": {
+                "inner": {
+                    "baseboard": "327"
+                }
+            },
+            "materials": {}
+        },
+        {
+            "Class": "hsw.model.Wall",
+            "id": "172",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "from": "168",
+            "to": "169",
+            "coedge": "179",
+            "width": 0.24,
+            "height3d": 2.6,
+            "wallType": "generic",
+            "isLoadBearing": false
+        },
+        {
+            "Class": "hsw.model.Point",
+            "id": "169",
+            "flag": 0,
+            "parents": [
+                "179",
+                "180"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": -4.3509,
+            "y": -2.5297
+        },
+        {
+            "Class": "hsw.model.CornerWindow",
+            "id": "344",
+            "flag": 0,
+            "parents": [
+                "1"
+            ],
+            "children": [
+                "345",
+                "346",
+                "347",
+                "348",
+                "349",
+                "350",
+                "351",
+                "352",
+                "353"
+            ],
+            "userDefined": {},
+            "x": -4.2309,
+            "y": -2.4097,
+            "z": 0.5,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "XScale": 1,
+            "YScale": 1,
+            "ZScale": 1,
+            "XLength": 2.167,
+            "YLength": 2.167,
+            "ZLength": 1.6,
+            "seekId": "97c63f17-3a22-46bb-98bd-15310f8d79b5",
+            "variationId": "97c63f17-3a22-46bb-98bd-15310f8d79b5",
+            "topView": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/97c63f17-3a22-46bb-98bd-15310f8d79b5/Top.png",
+            "modelTexture": "",
+            "model3d": "",
+            "host": "172",
+            "flip": 0,
+            "parameters": {
+                "sideA": 0.8,
+                "sideB": 1,
+                "sideC": 1,
+                "sideD": 0.8,
+                "elevation": 0.5,
+                "height": 1.6
+            }
+        },
+        {
+            "Class": "hsw.model.parametrization.Wall",
+            "id": "345",
+            "flag": 0,
+            "parents": [
+                "344"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "parameters": {
+                "name": "sideWallA",
+                "partName": "A",
+                "type": "wall",
+                "width": 0.24,
+                "height": 1.6,
+                "unit": "m",
+                "direction": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1
+                },
+                "materialData": {
+                    "texture": "res/wall_stucco.jpg",
+                    "seekId": "local",
+                    "color": "#acacac"
+                },
+                "outerFrom": {
+                    "x": -2.9909,
+                    "y": -2.6497
+                },
+                "innerFrom": {
+                    "x": -3.2309,
+                    "y": -2.6497
+                },
+                "from": {
+                    "x": -3.1109,
+                    "y": -2.6497
+                },
+                "outerTo": {
+                    "x": -2.9909,
+                    "y": -3.3367
+                },
+                "innerTo": {
+                    "x": -3.2309,
+                    "y": -3.3367
+                },
+                "to": {
+                    "x": -3.1109,
+                    "y": -3.3367
+                },
+                "isWall": true,
+                "elevation": 0.5,
+                "points": [
+                    {
+                        "x": -3.2309,
+                        "y": -2.6497
+                    },
+                    {
+                        "x": -3.2309,
+                        "y": -3.3367
+                    },
+                    {
+                        "x": -2.9909,
+                        "y": -3.3367
+                    },
+                    {
+                        "x": -2.9909,
+                        "y": -2.6497
+                    }
+                ]
+            },
+            "host": null
+        },
+        {
+            "Class": "hsw.model.parametrization.Window",
+            "id": "346",
+            "flag": 0,
+            "parents": [
+                "344"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "parameters": {
+                "name": "sideWindowB",
+                "partName": "B",
+                "type": "window",
+                "window": {
+                    "width": 0.01,
+                    "unit": "m",
+                    "materialData": {
+                        "seekId": "e0161ace-054e-4c0c-857a-92908f6424d8",
+                        "textureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e0161ace-054e-4c0c-857a-92908f6424d8/wallfloor.jpg",
+                        "tileSize_x": 0.6,
+                        "tileSize_y": 0.6,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "flipX": false,
+                        "flipY": true,
+                        "rotation": 0,
+                        "wrap": 1000,
+                        "color": 16777215,
+                        "seamColor": "FFFFFF",
+                        "seamWidth": 2,
+                        "isCustomized": false,
+                        "uvConsistentInfo": {},
+                        "seamFillerSupported": true,
+                        "userDefined": null,
+                        "defaultTextureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e0161ace-054e-4c0c-857a-92908f6424d8/wallfloor.jpg"
+                    }
+                },
+                "frame": {
+                    "width": 0.054,
+                    "thickness": 0.054,
+                    "defaultWidth": 1,
+                    "defaultHeight": 1,
+                    "unit": "m",
+                    "boundingProfile": "M0.0,-1.0 L1.0,-1.0 L1.0,-0.6 L1.04,-0.6 L1.04,-1.0 L1.1,-1.0 L1.1,0.0 L1.04,0.0 L1.04,-0.4 L1.0,-0.4 L1.0,0.0 L0.0,0.0",
+                    "boundingPath": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "x": 0,
+                            "y": 1
+                        },
+                        {
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "x": 1,
+                            "y": 0
+                        },
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "materialData": {
+                        "seekId": "9d260aec-a8f9-4852-88d7-4867ada26948",
+                        "textureURI": "",
+                        "tileSize_x": 0.6,
+                        "tileSize_y": 0.6,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "flipX": false,
+                        "flipY": true,
+                        "rotation": 0,
+                        "wrap": 1000,
+                        "color": 4536379,
+                        "seamColor": "FFFFFF",
+                        "seamWidth": 2,
+                        "isCustomized": false,
+                        "uvConsistentInfo": {},
+                        "seamFillerSupported": true,
+                        "userDefined": null,
+                        "defaultTextureURI": ""
+                    },
+                    "paths": [
+                        {
+                            "profile": "M0.0,-1.0 L1.0,-1.0 L1.0,-0.2 L1.04,-0.2 L1.04,-1.0 L1.1,-1.0 L1.1,1.0 L1.04,1.0 L1.04,0.2 L1.0,0.2 L1.0,1.0 L0.0,1.0",
+                            "id": 0,
+                            "path": [
+                                {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 1
+                                },
+                                {
+                                    "x": 0.5,
+                                    "y": 1
+                                },
+                                {
+                                    "x": 0.5,
+                                    "y": 0
+                                }
+                            ]
+                        },
+                        {
+                            "profile": "M0.0,-1.0 L1.0,-1.0 L1.0,-0.2 L1.04,-0.2 L1.04,-1.0 L1.1,-1.0 L1.1,1.0 L1.04,1.0 L1.04,0.2 L1.0,0.2 L1.0,1.0 L0.0,1.0",
+                            "id": 1,
+                            "lastConnected": 0,
+                            "path": [
+                                {
+                                    "x": 0.5,
+                                    "y": 0
+                                },
+                                {
+                                    "x": 0.5,
+                                    "y": 1
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "outerFrom": {
+                    "x": -3.2309,
+                    "y": -3.2637
+                },
+                "innerFrom": {
+                    "x": -3.2309,
+                    "y": -3.2097
+                },
+                "from": {
+                    "x": -3.2309,
+                    "y": -3.2367
+                },
+                "outerTo": {
+                    "x": -5.0849,
+                    "y": -3.2637
+                },
+                "innerTo": {
+                    "x": -5.0309,
+                    "y": -3.2097
+                },
+                "to": {
+                    "x": -5.0579,
+                    "y": -3.2367
+                },
+                "isWall": false,
+                "height": 1.6,
+                "width": 0.054,
+                "elevation": 0.5
+            },
+            "host": null
+        },
+        {
+            "Class": "hsw.model.parametrization.Window",
+            "id": "347",
+            "flag": 0,
+            "parents": [
+                "344"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "parameters": {
+                "name": "sideWindowC",
+                "partName": "C",
+                "type": "window",
+                "window": {
+                    "width": 0.01,
+                    "unit": "m",
+                    "materialData": {
+                        "seekId": "e0161ace-054e-4c0c-857a-92908f6424d8",
+                        "textureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e0161ace-054e-4c0c-857a-92908f6424d8/wallfloor.jpg",
+                        "tileSize_x": 0.6,
+                        "tileSize_y": 0.6,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "flipX": false,
+                        "flipY": true,
+                        "rotation": 0,
+                        "wrap": 1000,
+                        "color": 16777215,
+                        "seamColor": "FFFFFF",
+                        "seamWidth": 2,
+                        "isCustomized": false,
+                        "uvConsistentInfo": {},
+                        "seamFillerSupported": true,
+                        "userDefined": null,
+                        "defaultTextureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e0161ace-054e-4c0c-857a-92908f6424d8/wallfloor.jpg"
+                    }
+                },
+                "frame": {
+                    "width": 0.054,
+                    "thickness": 0.054,
+                    "unit": "m",
+                    "defaultWidth": 1,
+                    "defaultHeight": 1,
+                    "boundingProfile": "M0.0,-1.0 L1.0,-1.0 L1.0,-0.6 L1.04,-0.6 L1.04,-1.0 L1.1,-1.0 L1.1,0.0 L1.04,0.0 L1.04,-0.4 L1.0,-0.4 L1.0,0.0 L0.0,0.0",
+                    "boundingPath": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "x": 0,
+                            "y": 1
+                        },
+                        {
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "x": 1,
+                            "y": 0
+                        },
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "materialData": {
+                        "seekId": "9d260aec-a8f9-4852-88d7-4867ada26948",
+                        "textureURI": "",
+                        "tileSize_x": 0.6,
+                        "tileSize_y": 0.6,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "flipX": false,
+                        "flipY": true,
+                        "rotation": 0,
+                        "wrap": 1000,
+                        "color": 4536379,
+                        "seamColor": "FFFFFF",
+                        "seamWidth": 2,
+                        "isCustomized": false,
+                        "uvConsistentInfo": {},
+                        "seamFillerSupported": true,
+                        "userDefined": null,
+                        "defaultTextureURI": ""
+                    },
+                    "paths": [
+                        {
+                            "profile": "M0.0,-1.0 L1.0,-1.0 L1.0,-0.2 L1.04,-0.2 L1.04,-1.0 L1.1,-1.0 L1.1,1.0 L1.04,1.0 L1.04,0.2 L1.0,0.2 L1.0,1.0 L0.0,1.0",
+                            "id": 0,
+                            "path": [
+                                {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                {
+                                    "x": 0,
+                                    "y": 1
+                                },
+                                {
+                                    "x": 0.5,
+                                    "y": 1
+                                },
+                                {
+                                    "x": 0.5,
+                                    "y": 0
+                                }
+                            ]
+                        },
+                        {
+                            "profile": "M0.0,-1.0 L1.0,-1.0 L1.0,-0.2 L1.04,-0.2 L1.04,-1.0 L1.1,-1.0 L1.1,1.0 L1.04,1.0 L1.04,0.2 L1.0,0.2 L1.0,1.0 L0.0,1.0",
+                            "id": 1,
+                            "lastConnected": 0,
+                            "path": [
+                                {
+                                    "x": 0.5,
+                                    "y": 0
+                                },
+                                {
+                                    "x": 0.5,
+                                    "y": 1
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                {
+                                    "x": 1,
+                                    "y": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "outerFrom": {
+                    "x": -5.0849,
+                    "y": -3.2637
+                },
+                "innerFrom": {
+                    "x": -5.0309,
+                    "y": -3.2097
+                },
+                "from": {
+                    "x": -5.0579,
+                    "y": -3.2367
+                },
+                "outerTo": {
+                    "x": -5.0849,
+                    "y": -1.4097
+                },
+                "innerTo": {
+                    "x": -5.0309,
+                    "y": -1.4097
+                },
+                "to": {
+                    "x": -5.0579,
+                    "y": -1.4097
+                },
+                "isWall": false,
+                "height": 1.6,
+                "width": 0.054,
+                "elevation": 0.5
+            },
+            "host": null
+        },
+        {
+            "Class": "hsw.model.parametrization.Wall",
+            "id": "348",
+            "flag": 0,
+            "parents": [
+                "344"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "parameters": {
+                "name": "sideWallD",
+                "partName": "D",
+                "type": "wall",
+                "width": 0.24,
+                "height": 1.6,
+                "unit": "m",
+                "direction": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1
+                },
+                "materialData": {
+                    "texture": "res/wall_stucco.jpg",
+                    "seekId": "local",
+                    "color": "#acacac"
+                },
+                "outerFrom": {
+                    "x": -5.1579,
+                    "y": -1.1697
+                },
+                "innerFrom": {
+                    "x": -5.1579,
+                    "y": -1.4097
+                },
+                "from": {
+                    "x": -5.1579,
+                    "y": -1.2897
+                },
+                "outerTo": {
+                    "x": -4.4709,
+                    "y": -1.1697
+                },
+                "innerTo": {
+                    "x": -4.4709,
+                    "y": -1.4097
+                },
+                "to": {
+                    "x": -4.4709,
+                    "y": -1.2897
+                },
+                "isWall": true,
+                "elevation": 0.5,
+                "points": [
+                    {
+                        "x": -5.1579,
+                        "y": -1.4097
+                    },
+                    {
+                        "x": -4.4709,
+                        "y": -1.4097
+                    },
+                    {
+                        "x": -4.4709,
+                        "y": -1.1697
+                    },
+                    {
+                        "x": -5.1579,
+                        "y": -1.1697
+                    }
+                ]
+            },
+            "host": null
+        },
+        {
+            "Class": "hsw.model.parametrization.WindowSill",
+            "id": "349",
+            "flag": 0,
+            "parents": [
+                "344"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "parameters": {
+                "name": "windowSill",
+                "type": "windowSill",
+                "partName": "Sill",
+                "height": 0.05,
+                "concretHeight": 0.2,
+                "concretWidth": 0.073,
+                "edgeProfile": {
+                    "profile": "M0.0,1.0 L0.7,1.0 L1.0,0.7 L1.0,0.0",
+                    "XSize": 0.03,
+                    "YSize": 0.05
+                },
+                "unit": "m",
+                "materialData": {
+                    "seekId": "4e8506de-27a6-47a2-9f56-d58bab8c263a",
+                    "textureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/4e8506de-27a6-47a2-9f56-d58bab8c263a/wallfloor.jpg",
+                    "tileSize_x": 0.6,
+                    "tileSize_y": 0.6,
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "flipX": false,
+                    "flipY": true,
+                    "rotation": 0,
+                    "wrap": 1000,
+                    "color": 16777215,
+                    "seamColor": "FFFFFF",
+                    "seamWidth": 2,
+                    "isCustomized": false,
+                    "uvConsistentInfo": {},
+                    "seamFillerSupported": true,
+                    "userDefined": null,
+                    "defaultTextureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/4e8506de-27a6-47a2-9f56-d58bab8c263a/wallfloor.jpg"
+                },
+                "direction": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1
+                },
+                "moldingIndices": [
+                    1,
+                    0,
+                    5
+                ],
+                "moldingFlip": true,
+                "points": [
+                    {
+                        "x": -4.2309,
+                        "y": -2.4097
+                    },
+                    {
+                        "x": -4.2309,
+                        "y": -1.4097
+                    },
+                    {
+                        "x": -5.0309,
+                        "y": -1.4097
+                    },
+                    {
+                        "x": -5.0309,
+                        "y": -3.2097
+                    },
+                    {
+                        "x": -3.2309,
+                        "y": -3.2097
+                    },
+                    {
+                        "x": -3.2309,
+                        "y": -2.4097
+                    },
+                    {
+                        "x": -4.2309,
+                        "y": -2.4097
+                    }
+                ],
+                "elevation": 0.5
+            },
+            "host": null
+        },
+        {
+            "Class": "hsw.model.parametrization.WindowCeiling",
+            "id": "350",
+            "flag": 0,
+            "parents": [
+                "344"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "parameters": {
+                "name": "windowCeiling",
+                "type": "windowCeiling",
+                "partName": "Ceiling",
+                "height": 0.1,
+                "unit": "m",
+                "direction": {
+                    "x": 0,
+                    "y": 0,
+                    "z": -1
+                },
+                "materialData": {
+                    "texture": "res/wall_stucco.jpg",
+                    "seekId": "local",
+                    "color": "#acacac"
+                },
+                "points": [
+                    {
+                        "x": -4.4709,
+                        "y": -2.6497
+                    },
+                    {
+                        "x": -2.9909,
+                        "y": -2.6497
+                    },
+                    {
+                        "x": -2.9909,
+                        "y": -3.3367
+                    },
+                    {
+                        "x": -5.1579,
+                        "y": -3.3367
+                    },
+                    {
+                        "x": -5.1579,
+                        "y": -1.1697
+                    },
+                    {
+                        "x": -4.4709,
+                        "y": -1.1697
+                    },
+                    {
+                        "x": -4.4709,
+                        "y": -2.6497
+                    }
+                ],
+                "elevation": 2.2
+            },
+            "host": null
+        },
+        {
+            "Class": "hsw.model.parametrization.WindowHole",
+            "id": "351",
+            "flag": 0,
+            "parents": [
+                "344"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": -3.8509,
+            "y": -2.5297,
+            "z": 0.5,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "parameters": {
+                "type": "windowHole",
+                "partName": "openingB",
+                "fromSideNeedFill": true,
+                "z": 0,
+                "y": 0,
+                "x": 0,
+                "materialData": {
+                    "color": 16316923,
+                    "seekId": "c53afd8f-6b30-4d1b-8454-0138ff5d7147"
+                },
+                "innerFrom": {
+                    "x": -3.2309,
+                    "y": -2.4097
+                },
+                "innerTo": {
+                    "x": -4.2309,
+                    "y": -2.4097
+                },
+                "outerFrom": {
+                    "x": -3.2309,
+                    "y": -2.6497
+                },
+                "outerTo": {
+                    "x": -4.4709,
+                    "y": -2.6497,
+                    "z": 0
+                },
+                "elevation": 0.5,
+                "height": 1.6
+            },
+            "host": "173",
+            "XLength": 1.24,
+            "YLength": 0.24,
+            "ZLength": 1.6,
+            "XScale": 1,
+            "YScale": 1,
+            "ZScale": 1
+        },
+        {
+            "Class": "hsw.model.parametrization.WindowHole",
+            "id": "352",
+            "flag": 0,
+            "parents": [
+                "344"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": -4.3509,
+            "y": -2.0297,
+            "z": 0.5,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "parameters": {
+                "type": "windowHole",
+                "partName": "openingC",
+                "fromSideNeedFill": true,
+                "z": 0,
+                "y": 0,
+                "x": 0,
+                "materialData": {
+                    "color": 16316923,
+                    "seekId": "c53afd8f-6b30-4d1b-8454-0138ff5d7147"
+                },
+                "innerFrom": {
+                    "x": -4.2309,
+                    "y": -1.4097
+                },
+                "innerTo": {
+                    "x": -4.2309,
+                    "y": -2.4097
+                },
+                "outerFrom": {
+                    "x": -4.4709,
+                    "y": -1.4097
+                },
+                "outerTo": {
+                    "x": -4.4709,
+                    "y": -2.6497,
+                    "z": 0
+                },
+                "elevation": 0.5,
+                "height": 1.6
+            },
+            "host": "172",
+            "XLength": 1.24,
+            "YLength": 0.24,
+            "ZLength": 1.6,
+            "XScale": 1,
+            "YScale": 1,
+            "ZScale": 1
+        },
+        {
+            "Class": "hsw.model.parametrization.ExtrudedBody",
+            "id": "353",
+            "flag": 0,
+            "parents": [
+                "344"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "parameters": {
+                "type": "extrudedBody",
+                "partName": "SillConcret",
+                "materialData": {
+                    "textureURI": "res/wall_stucco.jpg",
+                    "seekId": "local"
+                },
+                "points": [
+                    {
+                        "x": -4.4709,
+                        "y": -2.6497
+                    },
+                    {
+                        "x": -4.4709,
+                        "y": -1.1697
+                    },
+                    {
+                        "x": -5.1579,
+                        "y": -1.1697
+                    },
+                    {
+                        "x": -5.1579,
+                        "y": -3.3367
+                    },
+                    {
+                        "x": -2.9909,
+                        "y": -3.3367
+                    },
+                    {
+                        "x": -2.9909,
+                        "y": -2.6497
+                    },
+                    {
+                        "x": -4.4709,
+                        "y": -2.6497
+                    }
+                ],
+                "elevation": 0.3,
+                "height": 0.2
+            },
+            "host": null
+        },
+        {
+            "Class": "hsw.model.Baseboard",
+            "id": "327",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "9e1edfb1-21e5-4c73-a911-1d8ee9672c09",
+            "XSize": 0.016,
+            "YSize": 0.115,
+            "material": "328"
+        },
+        {
+            "Class": "hsw.model.Material",
+            "id": "328",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "1c9c3caa-fe73-4bcb-8255-5d19cac0f458",
+            "textureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/1c9c3caa-fe73-4bcb-8255-5d19cac0f458/wallfloor.jpg",
+            "textureURIDefault": "",
+            "color": 16777215,
+            "tileSize_x": 0.5,
+            "tileSize_y": 0.5,
+            "rotation": 0,
+            "textureRotation": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "normalTexture": "",
+            "normalTileSize_x": 1,
+            "normalTileSize_y": 1,
+            "seamFillerSupported": false,
+            "seamWidth": 0,
+            "seamColor": "FFFFFF",
+            "name": "踢脚线材质"
+        },
+        {
+            "Class": "hsw.model.CoWall",
+            "id": "180",
+            "flag": 0,
+            "parents": [
+                "175"
+            ],
+            "children": [
+                "169",
+                "231"
+            ],
+            "userDefined": {},
+            "edge": "173",
+            "reversed": false,
+            "next": "276",
+            "prev": "179",
+            "moldings": {
+                "inner": {
+                    "baseboard": "329"
+                }
+            },
+            "materials": {}
+        },
+        {
+            "Class": "hsw.model.Wall",
+            "id": "173",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "from": "169",
+            "to": "231",
+            "coedge": "180",
+            "width": 0.24,
+            "height3d": 2.6,
+            "wallType": "generic",
+            "isLoadBearing": false
+        },
+        {
+            "Class": "hsw.model.Point",
+            "id": "231",
+            "flag": 0,
+            "parents": [
+                "180",
+                "241",
+                "242",
+                "276"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": -0.1109,
+            "y": -2.5297
+        },
+        {
+            "Class": "hsw.model.Flue",
+            "id": "318",
+            "flag": 0,
+            "parents": [
+                "1"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": -0.3809,
+            "y": -2.2097,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "XScale": 1,
+            "YScale": 1,
+            "ZScale": 1,
+            "XLength": 0.3,
+            "YLength": 0.4,
+            "ZLength": 2.6,
+            "seekId": "de28e0fd-bfc1-4c1f-9b4c-c96009abcdc0",
+            "variationId": "3a8b5a99-0e47-4002-ba45-f564b82e76cb",
+            "topView": "res/obstacle/flue.svg",
+            "modelTexture": "",
+            "model3d": "",
+            "host": "173",
+            "flip": 0,
+            "draggable": true,
+            "responsiveHeight": true,
+            "wallMoldings": {
+                "baseboard": "341"
+            }
+        },
+        {
+            "Class": "hsw.model.Baseboard",
+            "id": "341",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "9e1edfb1-21e5-4c73-a911-1d8ee9672c09",
+            "XSize": 0.016,
+            "YSize": 0.115,
+            "material": "342"
+        },
+        {
+            "Class": "hsw.model.Material",
+            "id": "342",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "1c9c3caa-fe73-4bcb-8255-5d19cac0f458",
+            "textureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/1c9c3caa-fe73-4bcb-8255-5d19cac0f458/wallfloor.jpg",
+            "textureURIDefault": "",
+            "color": 16777215,
+            "tileSize_x": 0.5,
+            "tileSize_y": 0.5,
+            "rotation": 0,
+            "textureRotation": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "normalTexture": "",
+            "normalTileSize_x": 1,
+            "normalTileSize_y": 1,
+            "seamFillerSupported": false,
+            "seamWidth": 0,
+            "seamColor": "FFFFFF",
+            "name": "踢脚线材质"
+        },
+        {
+            "Class": "hsw.model.Baseboard",
+            "id": "329",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "9e1edfb1-21e5-4c73-a911-1d8ee9672c09",
+            "XSize": 0.016,
+            "YSize": 0.115,
+            "material": "330"
+        },
+        {
+            "Class": "hsw.model.Material",
+            "id": "330",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "1c9c3caa-fe73-4bcb-8255-5d19cac0f458",
+            "textureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/1c9c3caa-fe73-4bcb-8255-5d19cac0f458/wallfloor.jpg",
+            "textureURIDefault": "",
+            "color": 16777215,
+            "tileSize_x": 0.5,
+            "tileSize_y": 0.5,
+            "rotation": 0,
+            "textureRotation": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "normalTexture": "",
+            "normalTileSize_x": 1,
+            "normalTileSize_y": 1,
+            "seamFillerSupported": false,
+            "seamWidth": 0,
+            "seamColor": "FFFFFF",
+            "name": "踢脚线材质"
+        },
+        {
+            "Class": "hsw.model.CoWall",
+            "id": "276",
+            "flag": 0,
+            "parents": [
+                "175"
+            ],
+            "children": [
+                "230",
+                "231"
+            ],
+            "userDefined": {},
+            "edge": "234",
+            "partner": "241",
+            "reversed": true,
+            "next": "178",
+            "prev": "180",
+            "moldings": {},
+            "materials": {
+                "inner": "285"
+            }
+        },
+        {
+            "Class": "hsw.model.Wall",
+            "id": "234",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "from": "230",
+            "to": "231",
+            "coedge": "241",
+            "width": 0.24,
+            "height3d": 2.6,
+            "wallType": "generic",
+            "isLoadBearing": false
+        },
+        {
+            "Class": "hsw.model.Content",
+            "id": "311",
+            "flag": 0,
+            "parents": [
+                "1"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": -0.6619,
+            "y": -1.0001,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 90,
+            "XScale": 1,
+            "YScale": 1,
+            "ZScale": 1,
+            "XLength": 0.6779,
+            "YLength": 0.8619,
+            "ZLength": 0.7581,
+            "seekId": "e13069d3-84df-4eb2-97a7-ac569e0040b5",
+            "variationId": "e13069d3-84df-4eb2-97a7-ac569e0040b5",
+            "topView": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e13069d3-84df-4eb2-97a7-ac569e0040b5/Top.png",
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e13069d3-84df-4eb2-97a7-ac569e0040b5/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e13069d3-84df-4eb2-97a7-ac569e0040b5/model.gz.bobj",
+            "host": "234",
+            "flip": 0
+        },
+        {
+            "Class": "hsw.model.Content",
+            "id": "343",
+            "flag": 0,
+            "parents": [
+                "1"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": -1.0789,
+            "y": 0.0146,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "XScale": 1,
+            "YScale": 1,
+            "ZScale": 1,
+            "XLength": 1.696,
+            "YLength": 0.06,
+            "ZLength": 0.9261,
+            "seekId": "bf3c7927-ae02-4723-b2a8-690d3150addd",
+            "variationId": "bf3c7927-ae02-4723-b2a8-690d3150addd",
+            "topView": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/Top.png",
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model.gz.bobj",
+            "host": "234",
+            "flip": 0
+        },
+        {
+            "Class": "hsw.model.Material",
+            "id": "285",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "ddd20b7b-e68f-443d-92e0-11ca85fccb63",
+            "textureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/ddd20b7b-e68f-443d-92e0-11ca85fccb63/wallfloor.jpg",
+            "textureURIDefault": "",
+            "color": 16777215,
+            "tileSize_x": 0.44,
+            "tileSize_y": 0.44,
+            "rotation": 0,
+            "textureRotation": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "normalTexture": "",
+            "normalTileSize_x": 1,
+            "normalTileSize_y": 1,
+            "seamFillerSupported": false,
+            "seamWidth": 0,
+            "seamColor": "FFFFFF"
+        },
+        {
+            "Class": "hsw.model.Material",
+            "id": "176",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "7095a157-ed9c-47d5-bbdc-57da8b52b7c6",
+            "textureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/7095a157-ed9c-47d5-bbdc-57da8b52b7c6/wallfloor.jpg",
+            "textureURIDefault": "",
+            "color": 16777215,
+            "tileSize_x": 3,
+            "tileSize_y": 3,
+            "rotation": 0,
+            "textureRotation": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "normalTexture": "",
+            "normalTileSize_x": 1,
+            "normalTileSize_y": 1,
+            "seamFillerSupported": false,
+            "seamWidth": 0,
+            "seamColor": "FFFFFF"
+        },
+        {
+            "Class": "hsw.model.Material",
+            "id": "177",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "local",
+            "textureURI": "res/white.jpg",
+            "textureURIDefault": "",
+            "color": 16777215,
+            "tileSize_x": 1,
+            "tileSize_y": 1,
+            "rotation": 0,
+            "textureRotation": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "normalTexture": "",
+            "normalTileSize_x": 1,
+            "normalTileSize_y": 1,
+            "seamFillerSupported": false,
+            "seamWidth": 0,
+            "seamColor": "FFFFFF"
+        },
+        {
+            "Class": "hsw.model.Room",
+            "id": "237",
+            "flag": 0,
+            "parents": [
+                "1"
+            ],
+            "children": [
+                "240",
+                "241",
+                "242",
+                "243"
+            ],
+            "userDefined": {},
+            "root": "240",
+            "floorMaterial": "238",
+            "ceilingHeight3d": 2.6,
+            "ceilingMaterial": "239"
+        },
+        {
+            "Class": "hsw.model.CoWall",
+            "id": "240",
+            "flag": 0,
+            "parents": [
+                "237"
+            ],
+            "children": [
+                "229",
+                "230"
+            ],
+            "userDefined": {},
+            "edge": "233",
+            "reversed": false,
+            "next": "241",
+            "prev": "243",
+            "moldings": {},
+            "materials": {}
+        },
+        {
+            "Class": "hsw.model.Wall",
+            "id": "233",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "from": "229",
+            "to": "230",
+            "coedge": "240",
+            "width": 0.24,
+            "height3d": 2.6,
+            "wallType": "generic",
+            "isLoadBearing": false
+        },
+        {
+            "Class": "hsw.model.Point",
+            "id": "229",
+            "flag": 0,
+            "parents": [
+                "240",
+                "243"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": 4.1291,
+            "y": 1.7103
+        },
+        {
+            "Class": "hsw.model.Window",
+            "id": "315",
+            "flag": 0,
+            "parents": [
+                "1"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": 1.1403,
+            "y": 1.7103,
+            "z": 0.85,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": -180,
+            "XScale": 1,
+            "YScale": 1,
+            "ZScale": 1,
+            "XLength": 0.7942,
+            "YLength": 0.1603,
+            "ZLength": 1.2172,
+            "seekId": "f4aed045-9a5c-4a66-b212-bb39c8aa0268",
+            "variationId": "f4aed045-9a5c-4a66-b212-bb39c8aa0268",
+            "topView": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/svg/single_window.svg",
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f4aed045-9a5c-4a66-b212-bb39c8aa0268/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f4aed045-9a5c-4a66-b212-bb39c8aa0268/model.gz.bobj",
+            "host": "233",
+            "flip": 0,
+            "profile": "M0.3971, 0 L0.3971, 1.2172 L-0.3971, 1.2172 L-0.3971, 0 L0.3971, 0",
+            "swing": 0,
+            "_isBottomMaterialEnabled": false,
+            "_isDefaultAlign": false,
+            "pocket": "316"
+        },
+        {
+            "Class": "hsw.model.Pocket",
+            "id": "316",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "08d9d5bc-4d46-4f02-aec5-d1f450278e14",
+            "XSize": 0.066,
+            "YSize": 0.0201,
+            "material": "317"
+        },
+        {
+            "Class": "hsw.model.Material",
+            "id": "317",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "66a5d6cd-d839-4486-802f-dd7150fe7032",
+            "textureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/66a5d6cd-d839-4486-802f-dd7150fe7032/wallfloor.jpg",
+            "textureURIDefault": "",
+            "color": 16777215,
+            "tileSize_x": 1,
+            "tileSize_y": 1,
+            "rotation": 0,
+            "textureRotation": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "normalTexture": "",
+            "normalTileSize_x": 1,
+            "normalTileSize_y": 1,
+            "seamFillerSupported": false,
+            "seamWidth": 0,
+            "seamColor": "FFFFFF",
+            "name": "柚木-中性色"
+        },
+        {
+            "Class": "hsw.model.CoWall",
+            "id": "241",
+            "flag": 0,
+            "parents": [
+                "237"
+            ],
+            "children": [
+                "230",
+                "231"
+            ],
+            "userDefined": {},
+            "edge": "234",
+            "partner": "276",
+            "reversed": false,
+            "next": "242",
+            "prev": "240",
+            "moldings": {},
+            "materials": {}
+        },
+        {
+            "Class": "hsw.model.CoWall",
+            "id": "242",
+            "flag": 0,
+            "parents": [
+                "237"
+            ],
+            "children": [
+                "231",
+                "232"
+            ],
+            "userDefined": {},
+            "edge": "235",
+            "reversed": false,
+            "next": "243",
+            "prev": "241",
+            "moldings": {},
+            "materials": {}
+        },
+        {
+            "Class": "hsw.model.Wall",
+            "id": "235",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "from": "231",
+            "to": "232",
+            "coedge": "242",
+            "width": 0.24,
+            "height3d": 2.6,
+            "wallType": "generic",
+            "isLoadBearing": false
+        },
+        {
+            "Class": "hsw.model.Point",
+            "id": "232",
+            "flag": 0,
+            "parents": [
+                "242",
+                "243"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": 4.1291,
+            "y": -2.5297
+        },
+        {
+            "Class": "hsw.model.Content",
+            "id": "310",
+            "flag": 0,
+            "parents": [
+                "1"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": 1.6565,
+            "y": -2.0302,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 180,
+            "XScale": 1,
+            "YScale": 1,
+            "ZScale": 1,
+            "XLength": 0.8933,
+            "YLength": 0.7592,
+            "ZLength": 0.4562,
+            "seekId": "8c3b228f-c321-4bf9-8ff0-316daaa5f2b1",
+            "variationId": "8c3b228f-c321-4bf9-8ff0-316daaa5f2b1",
+            "topView": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/8c3b228f-c321-4bf9-8ff0-316daaa5f2b1/Top.png",
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/8c3b228f-c321-4bf9-8ff0-316daaa5f2b1/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/8c3b228f-c321-4bf9-8ff0-316daaa5f2b1/model.gz.bobj",
+            "host": "235",
+            "flip": 0
+        },
+        {
+            "Class": "hsw.model.CoWall",
+            "id": "243",
+            "flag": 0,
+            "parents": [
+                "237"
+            ],
+            "children": [
+                "229",
+                "232"
+            ],
+            "userDefined": {},
+            "edge": "236",
+            "reversed": false,
+            "next": "240",
+            "prev": "242",
+            "moldings": {},
+            "materials": {}
+        },
+        {
+            "Class": "hsw.model.Wall",
+            "id": "236",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "from": "232",
+            "to": "229",
+            "coedge": "243",
+            "width": 0.24,
+            "height3d": 2.6,
+            "wallType": "generic",
+            "isLoadBearing": false
+        },
+        {
+            "Class": "hsw.model.Content",
+            "id": "308",
+            "flag": 0,
+            "parents": [
+                "1"
+            ],
+            "children": [],
+            "userDefined": {},
+            "x": 2.5234,
+            "y": 0.2748,
+            "z": 0,
+            "XRotation": 0,
+            "YRotation": 0,
+            "ZRotation": 0,
+            "XScale": 1,
+            "YScale": 1,
+            "ZScale": 1,
+            "XLength": 2.9713,
+            "YLength": 1.7205,
+            "ZLength": 0.7295,
+            "seekId": "867489d4-a661-4af4-a569-3edee33d454b",
+            "variationId": "867489d4-a661-4af4-a569-3edee33d454b",
+            "topView": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/867489d4-a661-4af4-a569-3edee33d454b/Top.png",
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/867489d4-a661-4af4-a569-3edee33d454b/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/867489d4-a661-4af4-a569-3edee33d454b/model.gz.bobj",
+            "host": "236",
+            "flip": 0
+        },
+        {
+            "Class": "hsw.model.Material",
+            "id": "238",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "7095a157-ed9c-47d5-bbdc-57da8b52b7c6",
+            "textureURI": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/7095a157-ed9c-47d5-bbdc-57da8b52b7c6/wallfloor.jpg",
+            "textureURIDefault": "",
+            "color": 16777215,
+            "tileSize_x": 3,
+            "tileSize_y": 3,
+            "rotation": 0,
+            "textureRotation": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "normalTexture": "",
+            "normalTileSize_x": 1,
+            "normalTileSize_y": 1,
+            "seamFillerSupported": false,
+            "seamWidth": 0,
+            "seamColor": "FFFFFF"
+        },
+        {
+            "Class": "hsw.model.Material",
+            "id": "239",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "seekId": "local",
+            "textureURI": "res/white.jpg",
+            "textureURIDefault": "",
+            "color": 16777215,
+            "tileSize_x": 1,
+            "tileSize_y": 1,
+            "rotation": 0,
+            "textureRotation": 0,
+            "offsetX": 0,
+            "offsetY": 0,
+            "normalTexture": "",
+            "normalTileSize_x": 1,
+            "normalTileSize_y": 1,
+            "seamFillerSupported": false,
+            "seamWidth": 0,
+            "seamColor": "FFFFFF"
+        },
+        {
+            "Class": "hsw.model.Underlay",
+            "id": "5",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "url": "",
+            "enabled": false,
+            "show": false,
+            "showSnapPoint": false,
+            "cadPoints": [],
+            "parallelLines": []
+        },
+        {
+            "Class": "hsw.model.Camera",
+            "id": "2",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "x": -2.8284,
+            "y": -0.4536,
+            "target_x": -2.9935,
+            "target_y": 0.321,
+            "horizontal_fov": 60,
+            "z": 1.2,
+            "pitch": -12.9441,
+            "type": "firstperson",
+            "near": 1,
+            "clip": false
+        },
+        {
+            "Class": "hsw.model.Camera",
+            "id": "3",
+            "flag": 0,
+            "parents": [],
+            "children": [],
+            "userDefined": {},
+            "x": -5,
+            "y": -5,
+            "target_x": 0,
+            "target_y": 0,
+            "horizontal_fov": 60,
+            "z": 7,
+            "pitch": -45,
+            "type": "orbitview",
+            "near": 1,
+            "clip": false
+        }
+    ],
+    "products": [
+        {
+            "id": "867489d4-a661-4af4-a569-3edee33d454b",
+            "seekId": "867489d4-a661-4af4-a569-3edee33d454b",
+            "vr": "vr",
+            "name": "Cloud",
+            "unit": "cm",
+            "productType": "3D",
+            "contentType": "sofa/right corner sofa",
+            "thumbnail": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/867489d4-a661-4af4-a569-3edee33d454b/resized/iso_w160_h160.jpg",
+            "images": [
+                "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/867489d4-a661-4af4-a569-3edee33d454b/iso.jpg"
+            ],
+            "categories": [
+                "58b818d4-2750-4ed9-bcde-59fb7c351769",
+                "f30fe99a-1538-497e-bd76-647cb104d6a9"
+            ],
+            "families": [],
+            "userFreeData": {},
+            "isUserProduct": false,
+            "v": "porada",
+            "vId": "9ad35d14-b7f4-410d-bb07-f8211b3db082",
+            "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/136/logo.jpg",
+            "productURL": "http://mall.shejijia.com/product/0072680 000737",
+            "sku": "0072680 000737",
+            "status": 1,
+            "colors": [],
+            "XLength": 2.9713,
+            "YLength": 1.7205,
+            "ZLength": 0.7295,
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/867489d4-a661-4af4-a569-3edee33d454b/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/867489d4-a661-4af4-a569-3edee33d454b/model.gz.bobj",
+            "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/867489d4-a661-4af4-a569-3edee33d454b/Top.png",
+            "variations": [],
+            "variationId": "",
+            "isScalable": true,
+            "isSearchable": true,
+            "dwgFile": [
+                "furniture:home_sofa_right_corner_top"
+            ],
+            "components": [],
+            "defaultHeight": 0,
+            "normalizedOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "hasHandle": false,
+            "extension": {
+                "references": [],
+                "objInfo": {}
+            }
+        },
+        {
+            "id": "f655f082-a36b-4465-b3df-37dc7366a607",
+            "seekId": "f655f082-a36b-4465-b3df-37dc7366a607",
+            "vr": "",
+            "name": "写意空间_OKUMI单人沙发",
+            "unit": "cm",
+            "productType": "3D",
+            "contentType": "sofa/double seat sofa",
+            "thumbnail": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f655f082-a36b-4465-b3df-37dc7366a607/resized/iso_w160_h160.jpg",
+            "images": [
+                "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/f655f082-a36b-4465-b3df-37dc7366a607/iso.jpg"
+            ],
+            "categories": [
+                "c2dcb449-4729-4cfe-9e38-1fc1453211a5",
+                "89912ccd-2ab1-401c-9c0a-fae3077a298d"
+            ],
+            "families": [],
+            "userFreeData": {},
+            "isUserProduct": false,
+            "v": "写意空间",
+            "vId": "07a9fe5f-8336-49a8-9636-ee017d142db6",
+            "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-aad790ca-e9e6-4fea-bcb7-15e4f8c44969.jpg",
+            "productURL": "http://mall.shejijia.com",
+            "status": 1,
+            "colors": [],
+            "XLength": 0.8609,
+            "YLength": 0.8634,
+            "ZLength": 0.7359,
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f655f082-a36b-4465-b3df-37dc7366a607/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f655f082-a36b-4465-b3df-37dc7366a607/model.gz.bobj",
+            "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f655f082-a36b-4465-b3df-37dc7366a607/Top.png",
+            "variations": [],
+            "variationId": "",
+            "isScalable": true,
+            "isSearchable": true,
+            "dwgFile": [
+                "furniture:home_sofa_double_top"
+            ],
+            "components": [],
+            "defaultHeight": 0,
+            "normalizedOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "hasHandle": false,
+            "extension": {
+                "references": [],
+                "objInfo": {}
+            }
+        },
+        {
+            "id": "8c3b228f-c321-4bf9-8ff0-316daaa5f2b1",
+            "seekId": "8c3b228f-c321-4bf9-8ff0-316daaa5f2b1",
+            "vr": "vr",
+            "name": "沙发",
+            "unit": "cm",
+            "productType": "3D",
+            "contentType": "sofa/single seat sofa",
+            "thumbnail": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/8c3b228f-c321-4bf9-8ff0-316daaa5f2b1/resized/iso_w160_h160.jpg",
+            "images": [
+                "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/8c3b228f-c321-4bf9-8ff0-316daaa5f2b1/iso.jpg"
+            ],
+            "categories": [
+                "c2dcb449-4729-4cfe-9e38-1fc1453211a5",
+                "b3c4f30c-275c-418b-a4bd-df3bf5541590"
+            ],
+            "families": [],
+            "userFreeData": {},
+            "isUserProduct": false,
+            "v": "通配",
+            "vId": "brand-generic",
+            "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-2554b3f8-ddb5-456d-84df-1654413e9a5e.jpg",
+            "productURL": "http://mall.shejijia.com",
+            "status": 1,
+            "colors": [],
+            "XLength": 0.8933,
+            "YLength": 0.7592,
+            "ZLength": 0.4562,
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/8c3b228f-c321-4bf9-8ff0-316daaa5f2b1/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/8c3b228f-c321-4bf9-8ff0-316daaa5f2b1/model.gz.bobj",
+            "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/8c3b228f-c321-4bf9-8ff0-316daaa5f2b1/Top.png",
+            "variations": [],
+            "variationId": "",
+            "isScalable": true,
+            "isSearchable": true,
+            "dwgFile": [
+                "furniture:home_sofa_single_top"
+            ],
+            "components": [],
+            "defaultHeight": 0,
+            "normalizedOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "hasHandle": false,
+            "extension": {
+                "references": [],
+                "objInfo": {}
+            }
+        },
+        {
+            "id": "e13069d3-84df-4eb2-97a7-ac569e0040b5",
+            "seekId": "e13069d3-84df-4eb2-97a7-ac569e0040b5",
+            "vr": "vr",
+            "name": "懒人沙发",
+            "unit": "cm",
+            "productType": "3D",
+            "contentType": "sofa/single seat sofa",
+            "thumbnail": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e13069d3-84df-4eb2-97a7-ac569e0040b5/resized/iso_w160_h160.jpg",
+            "images": [
+                "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/e13069d3-84df-4eb2-97a7-ac569e0040b5/iso.jpg"
+            ],
+            "categories": [
+                "c2dcb449-4729-4cfe-9e38-1fc1453211a5",
+                "b3c4f30c-275c-418b-a4bd-df3bf5541590"
+            ],
+            "families": [],
+            "userFreeData": {},
+            "isUserProduct": false,
+            "v": "通配",
+            "vId": "brand-generic",
+            "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-2554b3f8-ddb5-456d-84df-1654413e9a5e.jpg",
+            "productURL": "http://mall.shejijia.com",
+            "status": 1,
+            "colors": [],
+            "XLength": 0.6779,
+            "YLength": 0.8619,
+            "ZLength": 0.7581,
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e13069d3-84df-4eb2-97a7-ac569e0040b5/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e13069d3-84df-4eb2-97a7-ac569e0040b5/model.gz.bobj",
+            "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e13069d3-84df-4eb2-97a7-ac569e0040b5/Top.png",
+            "variations": [],
+            "variationId": "",
+            "isScalable": true,
+            "isSearchable": true,
+            "dwgFile": [
+                "furniture:home_sofa_single_top"
+            ],
+            "components": [],
+            "defaultHeight": 0,
+            "normalizedOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "hasHandle": false,
+            "extension": {
+                "references": [],
+                "objInfo": {}
+            }
+        },
+        {
+            "id": "6682ab77-48f0-4812-9ea7-5757cc138eb8",
+            "seekId": "6682ab77-48f0-4812-9ea7-5757cc138eb8",
+            "vr": "",
+            "name": "MHS-L-381",
+            "unit": "cm",
+            "productType": "3D",
+            "contentType": "door/single swing door",
+            "thumbnail": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/6682ab77-48f0-4812-9ea7-5757cc138eb8/resized/iso_w160_h160.jpg",
+            "images": [
+                "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/6682ab77-48f0-4812-9ea7-5757cc138eb8/iso.jpg"
+            ],
+            "categories": [
+                "69d013d3-354d-44af-bdfd-22a1181a8001",
+                "851b8d01-8885-4920-b04c-e5dd980b419c"
+            ],
+            "families": [],
+            "userFreeData": {},
+            "isUserProduct": false,
+            "v": "长恩无敌",
+            "vId": "0f3c05f8-0b2d-483d-a6c5-35ffd958487f",
+            "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-ff3567b2-080e-4e9d-91bc-da1105cc1b67.jpg",
+            "productURL": "http://mall.shejijia.com/product/0017250000773",
+            "sku": "0017250000773",
+            "status": 1,
+            "colors": [],
+            "XLength": 0.9,
+            "YLength": 0.2938,
+            "ZLength": 2.094,
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/6682ab77-48f0-4812-9ea7-5757cc138eb8/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/6682ab77-48f0-4812-9ea7-5757cc138eb8/model.gz.bobj",
+            "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/svg/swinging_door.svg",
+            "variations": [],
+            "variationId": "",
+            "isScalable": true,
+            "isSearchable": true,
+            "components": [],
+            "defaultHeight": 0,
+            "normalizedOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "hasHandle": false,
+            "extension": {
+                "references": [],
+                "objInfo": {}
+            },
+            "profile": "M-0.45,2.0370310000000003 L-0.45,2.0241890000000002 L-0.45,2.0109190000000003 L-0.45,2.007928 L-0.45,1.993257 L-0.45,1.98995 L-0.45,1.6238890000000001 L-0.45,0 L0.45,0 L0.45,0.366055 L0.45,1.98995 L0.45,2.0046209999999998 L0.45,2.007928 L0.45,2.021198 L0.45,2.0241890000000002 L0.45,2.03703 L0.45,2.0939959999999997 L0.402393,2.0939959999999997 L0.39166100000000004,2.0939959999999997 L0.38081899999999996,2.0939959999999997 L0.37837400000000004,2.0939959999999997 L0.374255,2.0939959999999997 L0.35597900000000005,2.0939959999999997 L0.22406099999999998,2.0939959999999997 L-0.361143,2.0939959999999997 L-0.372722,2.0939959999999997 L-0.37533099999999997,2.0939959999999997 L-0.387696,2.0939959999999997 L-0.390484,2.0939959999999997 L-0.439052,2.0939959999999997 L-0.45,2.0939959999999997 L-0.45,2.0370310000000003",
+            "hasPocket": false
+        },
+        {
+            "id": "f4aed045-9a5c-4a66-b212-bb39c8aa0268",
+            "seekId": "f4aed045-9a5c-4a66-b212-bb39c8aa0268",
+            "vr": "",
+            "name": "68系列-简欧风格",
+            "unit": "cm",
+            "productType": "3D",
+            "contentType": "window/window",
+            "thumbnail": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f4aed045-9a5c-4a66-b212-bb39c8aa0268/resized/iso_w160_h160.jpg",
+            "images": [
+                "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/f4aed045-9a5c-4a66-b212-bb39c8aa0268/iso.jpg"
+            ],
+            "categories": [
+                "130a308f-15b6-4472-8e4e-b43b956cdccc"
+            ],
+            "families": [],
+            "userFreeData": {},
+            "isUserProduct": false,
+            "v": "丝吉利娅",
+            "vId": "6f36cb78-0ca5-4f4a-b80c-6288e2bd0512",
+            "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-7e7cd94b-3ab1-4d4c-87ca-04484220fb01.jpg",
+            "productURL": "http://mall.shejijia.com/product/0004020000835",
+            "sku": "0004020000835",
+            "status": 1,
+            "colors": [],
+            "XLength": 0.7942,
+            "YLength": 0.1603,
+            "ZLength": 1.2172,
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f4aed045-9a5c-4a66-b212-bb39c8aa0268/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f4aed045-9a5c-4a66-b212-bb39c8aa0268/model.gz.bobj",
+            "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/svg/single_window.svg",
+            "variations": [],
+            "variationId": "",
+            "isScalable": true,
+            "isSearchable": true,
+            "components": [],
+            "defaultHeight": 0.85,
+            "normalizedOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "hasHandle": false,
+            "extension": {
+                "references": [],
+                "objInfo": {}
+            },
+            "hasPocket": false
+        },
+        {
+            "id": "de28e0fd-bfc1-4c1f-9b4c-c96009abcdc0",
+            "seekId": "de28e0fd-bfc1-4c1f-9b4c-c96009abcdc0",
+            "vr": "",
+            "name": "烟道",
+            "unit": "m",
+            "productType": "3D",
+            "contentType": "obstacle/flue - square",
+            "thumbnail": "https://ezhome-uat-pim-assets.s3.cn-north-1.amazonaws.com.cn/i/3a8b5a99-0e47-4002-ba45-f564b82e76cb/iso.jpg",
+            "images": [
+                "https://ezhome-uat-pim-assets-iso.oss-cn-beijing.aliyuncs.com/i/3a8b5a99-0e47-4002-ba45-f564b82e76cb/iso.jpg"
+            ],
+            "categories": [
+                "4f7c6d7e-bf8a-410c-ab4e-629e5ddee821",
+                "b3c4f30c-275c-418b-a4bd-df3bf5541590"
+            ],
+            "families": [],
+            "isUserProduct": false,
+            "v": "通配",
+            "vId": "brand-generic",
+            "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-2554b3f8-ddb5-456d-84df-1654413e9a5e.jpg",
+            "productURL": "http://mall.shejijia.com",
+            "dimension": [
+                "长0.30x宽0.40x高2.60(m)"
+            ],
+            "status": 1,
+            "colors": [],
+            "XLength": 0.3,
+            "YLength": 0.4,
+            "ZLength": 2.6,
+            "modelTexture": "",
+            "model3d": "",
+            "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/3a8b5a99-0e47-4002-ba45-f564b82e76cb/Top.png",
+            "variations": [],
+            "variationId": "",
+            "isScalable": true,
+            "isSearchable": true,
+            "dwgFile": [
+                "furniture:sjj_管道井"
+            ],
+            "components": [],
+            "defaultHeight": 0,
+            "normalizedOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "hasHandle": false,
+            "extension": {
+                "references": [],
+                "objInfo": {}
+            },
+            "webCADDocument": "{\"Class\":\"HswSketchDocument\",\"SketchDocumentVersion\":\"0.4\",\"vertices\":[[0.14999999787114826,0.20000000513875463,0],[-0.14999998871780684,0.20000000513875463,0],[-0.14999998871780684,-0.19999997697985217,0],[0.14999999787114826,-0.19999997697985217,0],[-0.10000001807260128,-0.15000000419741755,0],[-0.10000001807260128,0.14999998239153753,0],[0.09999997298670205,0.14999998239153753,0],[0.09999997298670205,-0.15000000419741755,0],[-0.14999998871780684,0.20000000513875463,2.5999999418854713],[-0.14999998871780684,-0.19999997697985217,2.5999999418854713],[0.14999999787114826,-0.19999997697985217,2.5999999418854713],[0.14999999787114826,0.20000000513875463,2.5999999418854713],[-0.10000001807260128,-0.15000000419741755,2.5999999418854713],[-0.10000001807260128,0.14999998239153753,2.5999999418854713],[0.09999997298670205,0.14999998239153753,2.5999999418854713],[0.09999997298670205,-0.15000000419741755,2.5999999418854713]],\"polyPlanes\":[{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[0,0,1],\"constant\":0},\"xRay\":[1,0,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[0,1,2,3,0],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}},{\"indices\":[4,5,6,7,4],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,0,0.00999999955296517],\"tris\":[[2,4,1],[5,1,4],[3,4,2],[6,1,5],[3,7,4],[6,0,1],[0,7,3],[7,0,6]],\"customData\":{},\"id\":\"63\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[1,0,0],\"constant\":0.14999998871780684},\"xRay\":[0,-1,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[2,1,8,9,2],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0.009999999776482582,0,0],\"tris\":[[8,9,2],[2,1,8]],\"customData\":{},\"id\":\"1270\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[-1,0,0],\"constant\":0.14999999787114826},\"xRay\":[0,1,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[0,3,10,11,0],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[-0.009999999776482582,0,0],\"tris\":[[10,11,0],[0,3,10]],\"customData\":{},\"id\":\"1271\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[0,-1,0],\"constant\":0.20000000513875463},\"xRay\":[-1,0,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[1,0,11,8,1],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,-0.009999999776482582,0],\"tris\":[[11,8,1],[1,0,11]],\"customData\":{},\"id\":\"1272\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[0,1,0],\"constant\":0.19999997697985217},\"xRay\":[1,0,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[3,2,9,10,3],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,0.009999999776482582,0],\"tris\":[[9,10,3],[3,2,9]],\"customData\":{},\"id\":\"1273\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[-1,0,0],\"constant\":-0.10000001807260128},\"xRay\":[0,1,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[5,4,12,13,5],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[-0.009999999776482582,0,0],\"tris\":[[12,13,5],[5,4,12]],\"customData\":{},\"id\":\"1274\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[1,0,0],\"constant\":-0.09999997298670205},\"xRay\":[0,-1,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[7,6,14,15,7],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0.009999999776482582,0,0],\"tris\":[[14,15,7],[7,6,14]],\"customData\":{},\"id\":\"1275\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[0,1,0],\"constant\":-0.14999998239153753},\"xRay\":[1,0,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[6,5,13,14,6],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,0.009999999776482582,0],\"tris\":[[13,14,6],[6,5,13]],\"customData\":{},\"id\":\"1276\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[0,-1,0],\"constant\":-0.15000000419741755},\"xRay\":[-1,0,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[4,7,15,12,4],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,-0.009999999776482582,0],\"tris\":[[15,12,4],[4,7,15]],\"customData\":{},\"id\":\"1277\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[0,0,-1],\"constant\":2.5999999418854713},\"xRay\":[1,0,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[10,9,8,11,10],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}},{\"indices\":[13,12,15,14,13],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,0,-0.00999999977648258],\"tris\":[[9,8,13],[14,13,8],[9,13,12],[14,8,11],[10,9,12],[15,14,11],[10,12,15],[15,11,10]],\"customData\":{},\"id\":\"1269\"}]}],\"children\":{\"fa1c35c7-dfa5-48d3-8b8e-beceacc234fa\":{\"Class\":\"HswMoldingDocument\",\"SketchDocumentVersion\":\"0.4\",\"vertices\":[[0.16599999787114827,-0.21599997697985215,0.11499999999999999],[0.16599999787114827,0.2160000051387546,0.11499999999999999],[0.16599999787114827,0.2160000051387546,0],[0.16599999787114827,-0.21599997697985215,0],[0.14999999787114826,-0.19999997697985217,0.11499999999999999],[0.14999999787114826,0.20000000513875463,0.11499999999999999],[0.14999999787114826,0.20000000513875463,0],[0.14999999787114826,-0.19999997697985217,0],[-0.16599998871780683,-0.21599997697985218,0.115],[-0.16599998871780683,-0.21599997697985218,0],[-0.14999998871780684,-0.19999997697985217,0.115],[-0.14999998871780684,-0.19999997697985217,0],[-0.16599998871780686,0.2160000051387546,0.11499999999999999],[-0.16599998871780686,0.2160000051387546,0],[-0.14999998871780684,0.20000000513875463,0.11499999999999999],[-0.14999998871780684,0.20000000513875463,0]],\"polyPlanes\":[{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[-1,0,0],\"constant\":0.16599999787114825},\"xRay\":[0,-1,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[0,1,2,3,0],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[-0.9999999999999999,0,0],\"tris\":[[2,3,0],[0,1,2]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/profile\",\"uvs\":[{\"x\":0.4319999821186068,\"y\":0.11499999999999999},{\"x\":0,\"y\":0.11499999999999999},{\"x\":0,\"y\":0},{\"x\":0.4319999821186068,\"y\":0}]},\"id\":\"1676\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[0,0,-1],\"constant\":0.11499999999999999},\"xRay\":[0,-1,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[4,5,1,0,4],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,0,-1],\"tris\":[[1,0,4],[4,5,1]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/profile\",\"uvs\":[{\"x\":0.4159999821186068,\"y\":0.131},{\"x\":0.015999999999999986,\"y\":0.131},{\"x\":0,\"y\":0.11499999999999999},{\"x\":0.4319999821186068,\"y\":0.11499999999999999}]},\"id\":\"1678\"},{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[0,8,10,4,0],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,0,-1],\"tris\":[[10,4,0],[0,8,10]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/profile\",\"uvs\":[{\"x\":0,\"y\":0.115},{\"x\":0.3319999865889551,\"y\":0.115},{\"x\":0.3159999865889551,\"y\":0.131},{\"x\":0.015999999999999986,\"y\":0.131}]},\"id\":\"1684\"},{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[8,12,14,10,8],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,0,-1],\"tris\":[[14,10,8],[8,12,14]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/profile\",\"uvs\":[{\"x\":0,\"y\":0.11499999999999999},{\"x\":0.4319999821186068,\"y\":0.11499999999999999},{\"x\":0.4159999821186068,\"y\":0.131},{\"x\":0.015999999999999986,\"y\":0.131}]},\"id\":\"1690\"},{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[12,1,5,14,12],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,0,-1],\"tris\":[[5,14,12],[12,1,5]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/profile\",\"uvs\":[{\"x\":0,\"y\":0.115},{\"x\":0.3319999865889551,\"y\":0.115},{\"x\":0.3159999865889551,\"y\":0.131},{\"x\":0.015999999999999986,\"y\":0.131}]},\"id\":\"1696\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[0,0,1],\"constant\":0},\"xRay\":[0,-1,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[3,2,6,7,3],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,0,1],\"tris\":[[6,7,3],[3,2,6]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/face\",\"uvs\":[{\"x\":0,\"y\":0},{\"x\":0.3999999821186067,\"y\":0},{\"x\":0.4159999821186067,\"y\":0.016000000000000014},{\"x\":-0.015999999999999983,\"y\":0.016000000000000014}]},\"id\":\"1680\"},{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[7,11,9,3,7],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,0,1],\"tris\":[[9,3,7],[7,11,9]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/face\",\"uvs\":[{\"x\":0,\"y\":0},{\"x\":0.2999999865889551,\"y\":0},{\"x\":0.3159999865889551,\"y\":0.016000000000000014},{\"x\":-0.015999999999999986,\"y\":0.016000000000000014}]},\"id\":\"1686\"},{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[11,15,13,9,11],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,0,1],\"tris\":[[13,9,11],[11,15,13]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/face\",\"uvs\":[{\"x\":0,\"y\":0},{\"x\":0.3999999821186067,\"y\":0},{\"x\":0.4159999821186067,\"y\":0.016000000000000014},{\"x\":-0.015999999999999983,\"y\":0.016000000000000014}]},\"id\":\"1692\"},{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[15,6,2,13,15],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,0,1],\"tris\":[[2,13,15],[15,6,2]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/face\",\"uvs\":[{\"x\":0,\"y\":0},{\"x\":0.2999999865889551,\"y\":0},{\"x\":0.3159999865889551,\"y\":0.015999999999999986},{\"x\":-0.015999999999999986,\"y\":0.015999999999999986}]},\"id\":\"1698\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[-1,0,0],\"constant\":0.14999999787114826},\"xRay\":[0,-1,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[4,5,6,7,4],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[-0.9999999999999999,0,0],\"tris\":[[6,7,4],[4,5,6]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/face\",\"uvs\":[{\"x\":0,\"y\":0},{\"x\":0.3999999821186067,\"y\":0},{\"x\":0.3999999821186067,\"y\":0.11499999999999999},{\"x\":0,\"y\":0.11499999999999999}]},\"id\":\"1681\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[0,1,0],\"constant\":0.21599997697985218},\"xRay\":[-1,0,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[8,0,3,9,8],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,1,0],\"tris\":[[3,9,8],[8,0,3]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/profile\",\"uvs\":[{\"x\":0.3319999865889551,\"y\":0.115},{\"x\":0,\"y\":0.115},{\"x\":0,\"y\":0},{\"x\":0.3319999865889551,\"y\":0}]},\"id\":\"1682\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[0,1,0],\"constant\":0.19999997697985217},\"xRay\":[-1,0,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[10,4,7,11,10],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,1,0],\"tris\":[[7,11,10],[10,4,7]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/face\",\"uvs\":[{\"x\":0,\"y\":0},{\"x\":0.2999999865889551,\"y\":0},{\"x\":0.2999999865889551,\"y\":0.115},{\"x\":0,\"y\":0.115}]},\"id\":\"1687\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[1,0,0],\"constant\":0.16599998871780683},\"xRay\":[0,1,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[12,8,9,13,12],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0.9999999999999999,0,0],\"tris\":[[9,13,12],[12,8,9]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/profile\",\"uvs\":[{\"x\":0.4319999821186068,\"y\":0.11499999999999999},{\"x\":0,\"y\":0.11499999999999999},{\"x\":0,\"y\":0},{\"x\":0.4319999821186068,\"y\":0}]},\"id\":\"1688\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[1,0,0],\"constant\":0.14999998871780684},\"xRay\":[0,1,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[14,10,11,15,14],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0.9999999999999999,0,0],\"tris\":[[11,15,14],[14,10,11]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/face\",\"uvs\":[{\"x\":0,\"y\":0},{\"x\":0.3999999821186067,\"y\":0},{\"x\":0.3999999821186067,\"y\":0.11499999999999999},{\"x\":0,\"y\":0.11499999999999999}]},\"id\":\"1693\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[0,-1,0],\"constant\":0.2160000051387546},\"xRay\":[1,0,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[1,12,13,2,1],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,-1,0],\"tris\":[[13,2,1],[1,12,13]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/profile\",\"uvs\":[{\"x\":0.3319999865889551,\"y\":0.115},{\"x\":0,\"y\":0.115},{\"x\":0,\"y\":0},{\"x\":0.3319999865889551,\"y\":0}]},\"id\":\"1694\"}]},{\"Class\":\"PolyPlane\",\"PolyPlaneVersion\":\"0.3\",\"plane\":{\"normal\":[0,-1,0],\"constant\":0.20000000513875463},\"xRay\":[1,0,0],\"paths\":[{\"Class\":\"PolyPath\",\"PolyPathVersion\":\"0.4\",\"subPaths\":[{\"indices\":[5,14,15,6,5],\"smoothMap\":{\"Class\":\"EdgeMap\",\"EdgeMapVersion\":\"0.1\"}}],\"targetNormal\":[0,-1,0],\"tris\":[[15,6,5],[5,14,15]],\"customData\":{\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0/face\",\"uvs\":[{\"x\":0,\"y\":0},{\"x\":0.2999999865889551,\"y\":0},{\"x\":0.2999999865889551,\"y\":0.115},{\"x\":0,\"y\":0.115}]},\"id\":\"1699\"}]}],\"children\":{},\"docId\":\"fa1c35c7-dfa5-48d3-8b8e-beceacc234fa\",\"displaySettings\":{\"visible\":true,\"groupMesh\":true,\"showEdge\":false},\"customData\":{\"pointsSet\":[{\"x\":0.14999999787114826,\"y\":0.20000000513875463,\"z\":0},{\"x\":0.14999999787114826,\"y\":-0.19999997697985217,\"z\":0},{\"x\":-0.14999998871780684,\"y\":-0.19999997697985217,\"z\":0},{\"x\":-0.14999998871780684,\"y\":0.20000000513875463,\"z\":0},{\"x\":0.14999999787114826,\"y\":0.20000000513875463,\"z\":0}],\"indicesSet\":[0,3,2,1,0],\"materialData\":{\"Class\":\"hsw.model.Material\",\"id\":\"342\",\"flag\":0,\"parents\":[],\"children\":[],\"userDefined\":{},\"seekId\":\"1c9c3caa-fe73-4bcb-8255-5d19cac0f458\",\"textureURI\":\"https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/1c9c3caa-fe73-4bcb-8255-5d19cac0f458/wallfloor.jpg\",\"textureURIDefault\":\"\",\"color\":16777215,\"tileSize_x\":0.5,\"tileSize_y\":0.5,\"rotation\":0,\"textureRotation\":0,\"offsetX\":0,\"offsetY\":0,\"normalTexture\":\"https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/9e1edfb1-21e5-4c73-a911-1d8ee9672c09/material-normal.png\",\"normalTileSize_x\":1,\"normalTileSize_y\":1,\"seamFillerSupported\":false,\"seamWidth\":0,\"seamColor\":\"FFFFFF\",\"name\":\"踢脚线材质\",\"textureUrl\":\"https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/1c9c3caa-fe73-4bcb-8255-5d19cac0f458/wallfloor.jpg\",\"normalTextureUrl\":\"https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/9e1edfb1-21e5-4c73-a911-1d8ee9672c09/material-normal.png\"},\"profileData\":{\"seekId\":\"9e1edfb1-21e5-4c73-a911-1d8ee9672c09\",\"contentType\":{\"_types\":[\"build element\",\"baseboard\"]},\"profile\":\"M1.0,0.0 L1.0,1.0 L0.0,1.0\",\"profileSizeX\":0.016,\"profileSizeY\":0.115,\"keepProfileCordinate\":false,\"profileWidth\":0.016,\"profileHeight\":0.115},\"flip\":true,\"flipNormal\":true,\"faceMaterialId\":\"group.molding9e1edfb1-21e5-4c73-a911-1d8ee9672c09/0_0\"},\"coordinateSystem\":{\"upNormal\":[0,1,0],\"xRay\":[1,0,0]},\"HswSketchDocumentVersion\":\"0.2\",\"unit\":\"m\",\"HswMoldingDocumentVersion\":\"0.7\"}},\"docId\":\"55493d59-bbe4-4889-8573-cfab521e5015\",\"displaySettings\":{\"visible\":true,\"groupMesh\":false,\"showEdge\":true},\"customData\":{},\"coordinateSystem\":{\"upNormal\":[0,1,0],\"xRay\":[1,0,0]},\"HswSketchDocumentVersion\":\"0.2\",\"unit\":\"m\"}",
+            "sizeRangeType": "low"
+        },
+        {
+            "id": "bf3c7927-ae02-4723-b2a8-690d3150addd",
+            "seekId": "bf3c7927-ae02-4723-b2a8-690d3150addd",
+            "vr": "vr",
+            "name": "护栏 铁艺栏杆 双组黑色",
+            "unit": "cm",
+            "productType": "3D",
+            "contentType": "build element/railing",
+            "thumbnail": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/resized/iso_w160_h160.jpg",
+            "images": [
+                "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/bf3c7927-ae02-4723-b2a8-690d3150addd/iso.jpg"
+            ],
+            "categories": [
+                "3fdd9158-2459-4ce1-bf60-8a8bf4577ce7",
+                "b3c4f30c-275c-418b-a4bd-df3bf5541590"
+            ],
+            "families": [],
+            "userFreeData": {},
+            "isUserProduct": false,
+            "v": "通配",
+            "vId": "brand-generic",
+            "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-2554b3f8-ddb5-456d-84df-1654413e9a5e.jpg",
+            "productURL": "http://mall.shejijia.com",
+            "status": 1,
+            "colors": [
+                {
+                    "id": "bf3c7927-ae02-4723-b2a8-690d3150addd",
+                    "seekId": "bf3c7927-ae02-4723-b2a8-690d3150addd",
+                    "vr": "vr",
+                    "name": "护栏 铁艺栏杆 双组黑色",
+                    "unit": "cm",
+                    "productType": "3D",
+                    "contentType": "build element/railing",
+                    "thumbnail": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/resized/iso_w160_h160.jpg",
+                    "images": [
+                        "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/bf3c7927-ae02-4723-b2a8-690d3150addd/iso.jpg"
+                    ],
+                    "categories": [
+                        "3fdd9158-2459-4ce1-bf60-8a8bf4577ce7",
+                        "b3c4f30c-275c-418b-a4bd-df3bf5541590"
+                    ],
+                    "families": [],
+                    "userFreeData": {},
+                    "isUserProduct": false,
+                    "v": "通配",
+                    "vId": "brand-generic",
+                    "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-2554b3f8-ddb5-456d-84df-1654413e9a5e.jpg",
+                    "productURL": "http://mall.shejijia.com",
+                    "status": 1,
+                    "colors": [],
+                    "XLength": 1.696,
+                    "YLength": 0.06,
+                    "ZLength": 0.9261,
+                    "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model-fc.png",
+                    "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model.gz.bobj",
+                    "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/Top.png",
+                    "variations": [],
+                    "variationId": "",
+                    "isScalable": true,
+                    "isSearchable": true,
+                    "components": [],
+                    "defaultHeight": 0,
+                    "normalizedOffset": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "hasHandle": false
+                },
+                {
+                    "id": "0542672e-caf3-4b80-9527-37f108432e4e",
+                    "seekId": "0542672e-caf3-4b80-9527-37f108432e4e",
+                    "vr": "vr",
+                    "name": "护栏 铁艺栏杆 双组白色",
+                    "unit": "cm",
+                    "productType": "3D",
+                    "contentType": "build element/railing",
+                    "thumbnail": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/resized/iso_w160_h160.jpg",
+                    "images": [
+                        "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/0542672e-caf3-4b80-9527-37f108432e4e/iso.jpg"
+                    ],
+                    "categories": [
+                        "3fdd9158-2459-4ce1-bf60-8a8bf4577ce7",
+                        "b3c4f30c-275c-418b-a4bd-df3bf5541590"
+                    ],
+                    "families": [],
+                    "userFreeData": {},
+                    "isUserProduct": false,
+                    "v": "通配",
+                    "vId": "brand-generic",
+                    "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-2554b3f8-ddb5-456d-84df-1654413e9a5e.jpg",
+                    "productURL": "http://mall.shejijia.com",
+                    "status": 1,
+                    "colors": [],
+                    "XLength": 1.696,
+                    "YLength": 0.06,
+                    "ZLength": 0.9261,
+                    "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model-fc.png",
+                    "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model.gz.bobj",
+                    "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/Top.png",
+                    "variations": [],
+                    "variationId": "",
+                    "isScalable": true,
+                    "isSearchable": true,
+                    "components": [],
+                    "defaultHeight": 0,
+                    "normalizedOffset": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "hasHandle": false
+                }
+            ],
+            "XLength": 1.696,
+            "YLength": 0.06,
+            "ZLength": 0.9261,
+            "modelTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model-fc.png",
+            "model3d": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model.gz.bobj",
+            "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/Top.png",
+            "variations": [
+                {
+                    "id": "bf3c7927-ae02-4723-b2a8-690d3150addd",
+                    "sku": "",
+                    "name": "护栏 铁艺栏杆 双组黑色",
+                    "files": {
+                        "ue4": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/4.18/bf3c7927-ae02-4723-b2a8-690d3150addd/model.ue4.2018-02-05T04:27:48.045.zip",
+                        "androidDat": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/a/bf3c7927-ae02-4723-b2a8-690d3150addd/model.dat",
+                        "iosDat": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model.dat",
+                        "isoAuto": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/isoAuto.jpg",
+                        "modelNormalized": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model-norm.obj",
+                        "vrscene": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model.vrscene.zip",
+                        "isoResizedW160H160": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/resized/iso_w160_h160.jpg",
+                        "modelGzNormalized": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model-norm-fc.gz",
+                        "3ds": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model.max.zip",
+                        "iso": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/iso.jpg",
+                        "renderImage": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/renderImage.jpg",
+                        "modelGz": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model-fc.gz",
+                        "objInfoExtension": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/objInfo.json",
+                        "topView": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/Top.png?x=169.6&y=6.0&z=92.6081",
+                        "modelPng": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model-fc.png",
+                        "modelBinary": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model.gz.bobj"
+                    },
+                    "retailers": [],
+                    "productType": "3D",
+                    "zIndex": "200",
+                    "vendorId": "brand-generic",
+                    "vendor": "通配",
+                    "vendorUrl": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-2554b3f8-ddb5-456d-84df-1654413e9a5e.jpg",
+                    "categories": [
+                        "3fdd9158-2459-4ce1-bf60-8a8bf4577ce7",
+                        "b3c4f30c-275c-418b-a4bd-df3bf5541590"
+                    ],
+                    "images": [
+                        "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/bf3c7927-ae02-4723-b2a8-690d3150addd/iso.jpg"
+                    ],
+                    "imagesResize": [
+                        "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/resized/iso_w160_h160.jpg"
+                    ],
+                    "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/Top.png",
+                    "boundingBox": {
+                        "xLen": 169.6,
+                        "yLen": 6,
+                        "zLen": 92.6081
+                    },
+                    "model": {
+                        "modelUrl": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model-fc.gz",
+                        "textureUrl": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model-fc.png",
+                        "modelNormalizedUrl": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model-norm-fc.gz",
+                        "modelBinaryUrl": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bf3c7927-ae02-4723-b2a8-690d3150addd/model.gz.bobj",
+                        "ue4Url": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/4.18/bf3c7927-ae02-4723-b2a8-690d3150addd/model.ue4.2018-02-05T04:27:48.045.zip"
+                    },
+                    "ticket": {
+                        "sku": ""
+                    },
+                    "tp": "seating",
+                    "tileSize": "0,0",
+                    "attributes": [
+                        {
+                            "id": "attr-isVariation",
+                            "attributeType": "",
+                            "name": "isVariation",
+                            "values": [
+                                {
+                                    "id": "attr-isVariation-false",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "9760302e-698a-4a18-8872-72f6ae9568bb",
+                            "name": "zindex",
+                            "values": [
+                                {
+                                    "id": "b8edcdbd-f62c-427b-9baf-3262b356a9df",
+                                    "value": "200"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "e87ff476-686c-4456-a343-5b334b13ec44",
+                            "name": "unitSize",
+                            "values": [],
+                            "free": [
+                                "0",
+                                "0"
+                            ]
+                        },
+                        {
+                            "id": "ebb2b817-33f3-45ac-8ce0-5eb4029fb149",
+                            "name": "tileSize",
+                            "values": [],
+                            "free": [
+                                "0",
+                                "0"
+                            ]
+                        },
+                        {
+                            "id": "9221463d-18ca-4b63-b09b-a2000585a00b",
+                            "name": "Styles",
+                            "values": [
+                                {
+                                    "id": "d84db045-a586-407a-a64a-b0d600892e9a",
+                                    "value": "欧式"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "attr_label",
+                            "name": "ProductLabel",
+                            "values": [],
+                            "free": [
+                                "护栏 铁艺 黑色"
+                            ]
+                        },
+                        {
+                            "id": "afecdd1d-fa70-4279-ad01-7315f5df7fcc",
+                            "name": "palletIndex",
+                            "values": [
+                                {
+                                    "id": "fae629be-54a5-4aca-b7b8-87ffaae986cd",
+                                    "value": "200"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4266633f-c95b-459c-9cce-1447fdf31ed5",
+                            "name": "meshReduce",
+                            "values": [
+                                {
+                                    "id": "a4179365-132a-4e14-8860-1e56bcedb8b2",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d84e3ec7-d39a-471e-8f39-58f645e209ef",
+                            "name": "isScalable",
+                            "values": [
+                                {
+                                    "id": "b514108f-53e7-49cb-b294-5d7e0b9c7097",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "dbd9b78c-fbae-4931-ac30-ff218059b3c6",
+                            "name": "ContentType",
+                            "values": [
+                                {
+                                    "id": "502cff71-9c64-4f01-9486-0fef40203d29",
+                                    "value": "build element/railing"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f2ebc921-291a-42c6-be8d-e6f3019672fb",
+                            "name": "AssetType",
+                            "values": [
+                                {
+                                    "id": "001e1123-52fb-42d4-a4fe-beffc201084a",
+                                    "value": "3D"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "attr-support-platform-candidate",
+                            "attributeType": "",
+                            "name": "platformCanditate",
+                            "values": [
+                                {
+                                    "id": "attr-support-platform-candidate-no-mobile",
+                                    "value": "手机文件不存在"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "attr-support-platform",
+                            "attributeType": "",
+                            "name": "支持平台",
+                            "values": [
+                                {
+                                    "id": "attr-support-platform-ue4",
+                                    "value": "ue4"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "attr-postProcessingStatus",
+                            "attributeType": "",
+                            "name": "PostProcessingStatus",
+                            "values": [
+                                {
+                                    "id": "value-postProcessingStatus-success",
+                                    "value": "处理成功"
+                                }
+                            ]
+                        }
+                    ],
+                    "label": "护栏 铁艺 黑色",
+                    "status": 1,
+                    "modifiedTime": "2018-02-05T04:27:48.329Z",
+                    "groups": [],
+                    "families": [],
+                    "vr": "vr"
+                },
+                {
+                    "id": "0542672e-caf3-4b80-9527-37f108432e4e",
+                    "sku": "",
+                    "name": "护栏 铁艺栏杆 双组白色",
+                    "files": {
+                        "ue4": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/4.18/0542672e-caf3-4b80-9527-37f108432e4e/model.ue4.2018-02-02T16:38:25.836.zip",
+                        "androidDat": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/a/0542672e-caf3-4b80-9527-37f108432e4e/model.dat",
+                        "iosDat": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model.dat",
+                        "isoAuto": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/isoAuto.jpg",
+                        "modelNormalized": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model-norm.obj",
+                        "vrscene": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model.vrscene.zip",
+                        "isoResizedW160H160": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/resized/iso_w160_h160.jpg",
+                        "modelGzNormalized": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model-norm-fc.gz",
+                        "3ds": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model.max.zip",
+                        "iso": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/iso.jpg",
+                        "renderImage": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/renderImage.jpg",
+                        "modelGz": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model-fc.gz",
+                        "objInfoExtension": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/objInfo.json",
+                        "topView": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/Top.png?x=169.6&y=6.0&z=92.6081",
+                        "modelPng": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model-fc.png",
+                        "modelBinary": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model.gz.bobj"
+                    },
+                    "retailers": [],
+                    "productType": "3D",
+                    "zIndex": "200",
+                    "vendorId": "brand-generic",
+                    "vendor": "通配",
+                    "vendorUrl": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-2554b3f8-ddb5-456d-84df-1654413e9a5e.jpg",
+                    "categories": [
+                        "3fdd9158-2459-4ce1-bf60-8a8bf4577ce7",
+                        "b3c4f30c-275c-418b-a4bd-df3bf5541590"
+                    ],
+                    "images": [
+                        "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/0542672e-caf3-4b80-9527-37f108432e4e/iso.jpg"
+                    ],
+                    "imagesResize": [
+                        "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/resized/iso_w160_h160.jpg"
+                    ],
+                    "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/Top.png",
+                    "boundingBox": {
+                        "xLen": 169.6,
+                        "yLen": 6,
+                        "zLen": 92.6081
+                    },
+                    "model": {
+                        "modelUrl": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model-fc.gz",
+                        "textureUrl": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model-fc.png",
+                        "modelNormalizedUrl": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model-norm-fc.gz",
+                        "modelBinaryUrl": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0542672e-caf3-4b80-9527-37f108432e4e/model.gz.bobj",
+                        "ue4Url": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/4.18/0542672e-caf3-4b80-9527-37f108432e4e/model.ue4.2018-02-02T16:38:25.836.zip"
+                    },
+                    "ticket": {
+                        "sku": ""
+                    },
+                    "tp": "seating",
+                    "tileSize": "0,0",
+                    "attributes": [
+                        {
+                            "id": "attr-support-platform",
+                            "attributeType": "",
+                            "name": "支持平台",
+                            "values": [
+                                {
+                                    "id": "attr-support-platform-ue4",
+                                    "value": "ue4"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "attr-support-platform-candidate",
+                            "attributeType": "",
+                            "name": "platformCanditate",
+                            "values": [
+                                {
+                                    "id": "attr-support-platform-candidate-no-mobile",
+                                    "value": "手机文件不存在"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "f2ebc921-291a-42c6-be8d-e6f3019672fb",
+                            "name": "AssetType",
+                            "values": [
+                                {
+                                    "id": "001e1123-52fb-42d4-a4fe-beffc201084a",
+                                    "value": "3D"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "dbd9b78c-fbae-4931-ac30-ff218059b3c6",
+                            "name": "ContentType",
+                            "values": [
+                                {
+                                    "id": "502cff71-9c64-4f01-9486-0fef40203d29",
+                                    "value": "build element/railing"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d84e3ec7-d39a-471e-8f39-58f645e209ef",
+                            "name": "isScalable",
+                            "values": [
+                                {
+                                    "id": "b514108f-53e7-49cb-b294-5d7e0b9c7097",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4266633f-c95b-459c-9cce-1447fdf31ed5",
+                            "name": "meshReduce",
+                            "values": [
+                                {
+                                    "id": "a4179365-132a-4e14-8860-1e56bcedb8b2",
+                                    "value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "afecdd1d-fa70-4279-ad01-7315f5df7fcc",
+                            "name": "palletIndex",
+                            "values": [
+                                {
+                                    "id": "fae629be-54a5-4aca-b7b8-87ffaae986cd",
+                                    "value": "200"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "attr_label",
+                            "name": "ProductLabel",
+                            "values": [],
+                            "free": [
+                                "护栏 铁艺 黑色"
+                            ]
+                        },
+                        {
+                            "id": "9221463d-18ca-4b63-b09b-a2000585a00b",
+                            "name": "Styles",
+                            "values": [
+                                {
+                                    "id": "d84db045-a586-407a-a64a-b0d600892e9a",
+                                    "value": "欧式"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ebb2b817-33f3-45ac-8ce0-5eb4029fb149",
+                            "name": "tileSize",
+                            "values": [],
+                            "free": [
+                                "0",
+                                "0"
+                            ]
+                        },
+                        {
+                            "id": "e87ff476-686c-4456-a343-5b334b13ec44",
+                            "name": "unitSize",
+                            "values": [],
+                            "free": [
+                                "0",
+                                "0"
+                            ]
+                        },
+                        {
+                            "id": "9760302e-698a-4a18-8872-72f6ae9568bb",
+                            "name": "zindex",
+                            "values": [
+                                {
+                                    "id": "b8edcdbd-f62c-427b-9baf-3262b356a9df",
+                                    "value": "200"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "attr-isVariation",
+                            "attributeType": "",
+                            "name": "isVariation",
+                            "values": [
+                                {
+                                    "id": "attr-isVariation-true",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "attr-postProcessingStatus",
+                            "attributeType": "",
+                            "name": "PostProcessingStatus",
+                            "values": [
+                                {
+                                    "id": "value-postProcessingStatus-success",
+                                    "value": "处理成功"
+                                }
+                            ]
+                        }
+                    ],
+                    "label": "护栏 铁艺 黑色",
+                    "status": 1,
+                    "modifiedTime": "2018-02-05T04:27:48.633Z",
+                    "groups": [],
+                    "families": [],
+                    "vr": "vr"
+                }
+            ],
+            "variationId": "bf3c7927-ae02-4723-b2a8-690d3150addd",
+            "isScalable": true,
+            "isSearchable": true,
+            "components": [],
+            "defaultHeight": 0,
+            "normalizedOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "hasHandle": false,
+            "extension": {
+                "references": [],
+                "objInfo": {}
+            }
+        },
+        {
+            "id": "97c63f17-3a22-46bb-98bd-15310f8d79b5",
+            "seekId": "97c63f17-3a22-46bb-98bd-15310f8d79b5",
+            "vr": "",
+            "name": "转角飘窗",
+            "unit": "cm",
+            "productType": "3D",
+            "contentType": "corner window",
+            "thumbnail": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/97c63f17-3a22-46bb-98bd-15310f8d79b5/iso.jpg",
+            "images": [
+                "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/97c63f17-3a22-46bb-98bd-15310f8d79b5/iso.jpg"
+            ],
+            "categories": [
+                "4eb23769-bfc6-4b63-b597-e9cd10d26f97",
+                "b3c4f30c-275c-418b-a4bd-df3bf5541590"
+            ],
+            "families": [],
+            "userFreeData": {
+                "parameters": {
+                    "a": {
+                        "value": 0.8,
+                        "unit": "m"
+                    },
+                    "b": {
+                        "value": 1,
+                        "unit": "m"
+                    },
+                    "c": {
+                        "value": 1,
+                        "unit": "m"
+                    },
+                    "d": {
+                        "value": 0.8,
+                        "unit": "m"
+                    },
+                    "height": {
+                        "value": 1.6,
+                        "unit": "m"
+                    },
+                    "elevation": {
+                        "value": 0.5,
+                        "unit": "m"
+                    }
+                }
+            },
+            "isUserProduct": false,
+            "v": "通配",
+            "vId": "brand-generic",
+            "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-2554b3f8-ddb5-456d-84df-1654413e9a5e.jpg",
+            "productURL": "http://mall.shejijia.com",
+            "dimension": [
+                "长1.8x宽1.8x高1.6(m)"
+            ],
+            "status": 1,
+            "colors": [],
+            "XLength": 1.8,
+            "YLength": 1.8,
+            "ZLength": 1.6,
+            "modelTexture": "",
+            "model3d": "",
+            "top": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/97c63f17-3a22-46bb-98bd-15310f8d79b5/Top.png",
+            "variations": [],
+            "variationId": "",
+            "isScalable": false,
+            "isSearchable": true,
+            "components": [],
+            "defaultHeight": 0.85,
+            "normalizedOffset": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "hasHandle": false,
+            "extension": {
+                "references": [],
+                "objInfo": {}
+            },
+            "snapPlaneMesh": null
+        },
+        {
+            "id": "9e1edfb1-21e5-4c73-a911-1d8ee9672c09",
+            "seekId": "9e1edfb1-21e5-4c73-a911-1d8ee9672c09",
+            "vr": "",
+            "name": "踢脚线1",
+            "unit": "cm",
+            "productType": "Profile",
+            "contentType": "build element/baseboard",
+            "thumbnail": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/9e1edfb1-21e5-4c73-a911-1d8ee9672c09/iso.jpg",
+            "images": [
+                "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/9e1edfb1-21e5-4c73-a911-1d8ee9672c09/iso.jpg"
+            ],
+            "categories": [
+                "d69b0dd6-d368-44c7-a968-b234ddb716a6",
+                "b3c4f30c-275c-418b-a4bd-df3bf5541590"
+            ],
+            "families": [],
+            "userFreeData": {},
+            "isUserProduct": false,
+            "v": "通配",
+            "vId": "brand-generic",
+            "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-2554b3f8-ddb5-456d-84df-1654413e9a5e.jpg",
+            "productURL": "http://mall.shejijia.com",
+            "status": 1,
+            "profile": "M1.0,0.0 L1.0,1.0 L0.0,1.0",
+            "normalTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/9e1edfb1-21e5-4c73-a911-1d8ee9672c09/material-normal.png",
+            "profileSizeX": 0.016,
+            "profileSizeY": 0.115
+        },
+        {
+            "id": "08d9d5bc-4d46-4f02-aec5-d1f450278e14",
+            "seekId": "08d9d5bc-4d46-4f02-aec5-d1f450278e14",
+            "vr": "",
+            "name": "门套线2",
+            "unit": "cm",
+            "productType": "Profile",
+            "contentType": "build element/door window pocket",
+            "thumbnail": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/08d9d5bc-4d46-4f02-aec5-d1f450278e14/resized/iso_w160_h160.jpg",
+            "images": [
+                "https://juran-prod-assets-iso.oss-cn-beijing.aliyuncs.com/i/08d9d5bc-4d46-4f02-aec5-d1f450278e14/iso.jpg"
+            ],
+            "categories": [
+                "bc8b2941-0c06-43b0-be0e-ce28a325895e",
+                "b3c4f30c-275c-418b-a4bd-df3bf5541590"
+            ],
+            "families": [],
+            "userFreeData": {},
+            "isUserProduct": false,
+            "v": "通配",
+            "vId": "brand-generic",
+            "vu": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/vendorlogos/temp-2554b3f8-ddb5-456d-84df-1654413e9a5e.jpg",
+            "productURL": "http://mall.shejijia.com",
+            "status": 1,
+            "profile": "M1.0,0.0 L1.0,0.60492104 L0.7811705,1.0 L0.15545864,0.45963043 L0.0,0.19918315 L0.0,0.0",
+            "profileHigh": "M1.0,0.0 L1.0,0.60492104 L0.92761725,0.60492104 L0.9194687,0.6675799 L0.90936637,0.7259053 L0.8974767,0.77964836 L0.8839513,0.8284106 L0.86892647,0.87179357 L0.8525839,0.90949845 L0.83506,0.9411267 L0.8165212,0.9663795 L0.7971041,0.9848085 L0.77699023,0.9961648 L0.75630075,1.0 L0.7356113,0.9961648 L0.71549743,0.9848085 L0.6960802,0.9663795 L0.67754155,0.9411267 L0.66001755,0.90949845 L0.643675,0.87179357 L0.6286502,0.8284106 L0.6151249,0.77964836 L0.6032352,0.7259053 L0.5931328,0.6675799 L0.58498424,0.60492104 L0.48124924,0.60322756 L0.4761602,0.56816256 L0.47026837,0.5348409 L0.4636193,0.50331223 L0.45625833,0.47377598 L0.4482158,0.44628185 L0.4395523,0.42102906 L0.43028292,0.39811727 L0.4204683,0.37764606 L0.4101539,0.35976493 L0.39936996,0.3445734 L0.38817704,0.33222094 L0.37671152,0.32290685 L0.36512482,0.3166808 L0.35350785,0.3135927 L0.3418908,0.31354287 L0.3303344,0.31653136 L0.31889915,0.32255816 L0.30763054,0.33152363 L0.29658914,0.3434776 L0.28583544,0.35837027 L0.27543017,0.37610203 L0.26541862,0.39672264 L0.25637648,0.41574937 L0.24695563,0.43203667 L0.23721674,0.44568413 L0.22720529,0.4565423 L0.21698171,0.46466106 L0.20659153,0.46994072 L0.19611049,0.47243115 L0.18556891,0.4720825 L0.17502728,0.46884498 L0.16454624,0.46271855 L0.15417121,0.45365342 L0.14406882,0.4417991 L0.13437536,0.42725506 L0.12513632,0.41027048 L0.116397046,0.39089507 L0.10818796,0.36922848 L0.10055433,0.34551975 L0.09354174,0.31971908 L0.08718044,0.29212534 L0.081500635,0.26273847 L0.076563045,0.23170793 L0.07239794,0.19918315 L0.0,0.19918315 L0.0,0.0",
+            "normalTexture": "https://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/08d9d5bc-4d46-4f02-aec5-d1f450278e14/material-normal.png",
+            "profileSizeX": 0.066,
+            "profileSizeY": 0.0201
+        }
+    ],
+    "states": [],
+    "constraints": []
+}

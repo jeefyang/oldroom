@@ -1,0 +1,10 @@
+[
+    {
+        "imgUrl": "assets/threeAssets/thumbnails/doorframeProfiles/001.jpg",
+        "vertexDataURL": "./assets/threeAssets/json/doorFrameDatas/001.json"
+    },
+    {
+        "imgUrl": "assets/threeAssets/thumbnails/doorframeProfiles/002.jpg",
+        "vertexDataURL": "./assets/threeAssets/json/doorFrameDatas/002.json"
+    } 
+]

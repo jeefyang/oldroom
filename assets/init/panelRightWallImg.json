@@ -1,0 +1,20 @@
+{
+    "wall":[
+        {
+            "path":"./assets/threeAssets/maps/wallPaper/shihuiqiang.jpg",
+            "detail":""
+        },
+        {
+            "path":"./assets/threeAssets/maps/wallPaper/wallPaper001.jpg",
+            "detail":""
+        },
+        {
+            "path":"./assets/threeAssets/maps/wallPaper/wallPaper002.jpg",
+            "detail":""
+        },
+        {
+            "path":"./assets/threeAssets/maps/wallPaper/wallPaper003.jpg",
+            "detail":""
+        }
+    ]
+}

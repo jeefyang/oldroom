@@ -1,0 +1,179 @@
+{
+    "params": [
+        {
+            "name": "width",
+            "cName": "宽",
+            "formula": "100"
+        },
+        {
+            "name": "height",
+            "cName": "高",
+            "formula": "100"
+        }
+    ],
+    "childs": [
+        {
+            "params": [
+                {
+                    "name": "width",
+                    "cName": "宽度",
+                    "formula": "50"
+                },
+                {
+                    "name": "height",
+                    "cName": "高度",
+                    "formula": "50"
+                }
+            ],
+            "childs": [
+                {
+                    "params": [
+                        {
+                            "name": "x",
+                            "cName": "",
+                            "formula": "0"
+                        },
+                        {
+                            "name": "y",
+                            "cName": "",
+                            "formula": "0"
+                        }
+                    ],
+                    "name": "",
+                    "modelName": "point"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "x",
+                            "cName": "",
+                            "formula": "0"
+                        },
+                        {
+                            "name": "y",
+                            "cName": "",
+                            "formula": "{{height}}"
+                        }
+                    ],
+                    "name": "",
+                    "modelName": "point"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "x",
+                            "cName": "",
+                            "formula": "{{width}}"
+                        },
+                        {
+                            "name": "y",
+                            "cName": "",
+                            "formula": "{{height}}"
+                        }
+                    ],
+                    "name": "",
+                    "modelName": "point"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "x",
+                            "cName": "",
+                            "formula": "{{width}}"
+                        },
+                        {
+                            "name": "y",
+                            "cName": "",
+                            "formula": "0"
+                        }
+                    ],
+                    "name": "",
+                    "modelName": "point"
+                }
+            ],
+            "modelName": "Module",
+            "name": "默认名字",
+            "isClose": false
+        },
+        {
+            "params": [
+                {
+                    "name": "width",
+                    "cName": "宽",
+                    "formula": "100"
+                },
+                {
+                    "name": "height",
+                    "cName": "高",
+                    "formula": "100"
+                }
+            ],
+            "childs": [
+                {
+                    "params": [
+                        {
+                            "name": "x",
+                            "cName": "",
+                            "formula": "0"
+                        },
+                        {
+                            "name": "y",
+                            "cName": "",
+                            "formula": "0"
+                        }
+                    ],
+                    "modelName": "point"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "x",
+                            "cName": "",
+                            "formula": "0"
+                        },
+                        {
+                            "name": "y",
+                            "cName": "",
+                            "formula": "{{height}}"
+                        }
+                    ],
+                    "modelName": "point"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "x",
+                            "cName": "",
+                            "formula": "{{width}}"
+                        },
+                        {
+                            "name": "y",
+                            "cName": "",
+                            "formula": "{{height}}"
+                        }
+                    ],
+                    "modelName": "point"
+                },
+                {
+                    "params": [
+                        {
+                            "name": "x",
+                            "cName": "",
+                            "formula": "{{width}}"
+                        },
+                        {
+                            "name": "y",
+                            "cName": "",
+                            "formula": "0"
+                        }
+                    ],
+                    "modelName": "point"
+                }
+            ],
+            "modelName": "Module",
+            "name": "全局图形名称"
+        }
+    ],
+    "modelName": "MainModule",
+    "name": "全局图形名称"
+}

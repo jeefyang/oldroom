@@ -1,0 +1,19 @@
+{
+    "default": "#icon-fangjian",
+    "画墙": "img/freeicon/free.png",
+    "画房间": "img/freeicon/area.png",
+    "画内墙": "img/freeicon/middleWall.png",
+    "单开门": "img/freeicon/men.png",
+    "双开门": "img/freeicon/doors.png",
+    "移门": "img/freeicon/moveDoor.png",
+    "窗": "img/freeicon/wind.png",
+    "飘窗": "img/freeicon/piaowindow.png",
+    "转角飘窗": "img/freeicon/scrollWindow.png",
+    "落地窗": "img/freeicon/underWindow.png",
+    "柱子": "img/freeicon/zhu.png",
+    "烟道": "img/freeicon/frog.png",
+    "门洞": "img/freeicon/doorDong.png",
+    "转角飘窗示意图": "img/freeicon/detail.png",
+    "L窗示意图": "img/freeicon/LWinDetail.png",
+    "U型窗示意图":"img/freeicon/UWinDetail.png"
+}

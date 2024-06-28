@@ -1,0 +1,18 @@
+[
+    {
+        "imgUrl": "./assets/threeAssets/thumbnails/kickLineProfiles/001.jpg",
+        "vertexDataURL": "./assets/threeAssets/json/kickLineDatas/001.json"
+    },
+    {
+        "imgUrl": "./assets/threeAssets/thumbnails/kickLineProfiles/002.jpg",
+        "vertexDataURL": "./assets/threeAssets/json/kickLineDatas/002.json"
+    },
+    {
+        "imgUrl": "./assets/threeAssets/thumbnails/kickLineProfiles/003.jpg",
+        "vertexDataURL": "./assets/threeAssets/json/kickLineDatas/003.json"
+    },
+    {
+        "imgUrl": "./assets/threeAssets/thumbnails/kickLineProfiles/004.jpg",
+        "vertexDataURL": "./assets/threeAssets/json/kickLineDatas/004.json"
+    }
+]

@@ -1,0 +1,140 @@
+{
+    "floorplan": {
+        "ruler": "mm",
+        "mm": 1,
+        "nextID": 3,
+        "top": null,
+        "left": null,
+        "zoom": 0.0525,
+        "opacity": 0.5,
+        "absorb": {
+            "minDistance": 200,
+            "minRadian": 0.05
+        },
+        "debugPos": {
+            "x": 10,
+            "y": 10
+        },
+        "testInputPos": {
+            "x": 800,
+            "y": 0
+        }
+    },
+    "common": {
+        "isThree": true,
+        "logOn": true,
+        "debug": false,
+        "initLog": false
+    },
+    "back": {
+        "pattern": {
+            "width": 1600,
+            "split": 5
+        },
+        "size": {
+            "width": 400000,
+            "height": 400000
+        }
+    },
+    "camera": {
+        "rotateImg": {
+            "url": "**/img/svg/camera.svg",
+            "size": {
+                "width": 1000,
+                "height": 300
+            }
+        },
+        "headImg": {
+            "url": "**/img/svg/camera.svg",
+            "size": {
+                "width": 1000,
+                "height": 1200
+            }
+        },
+        "offset": {
+            "x": -490,
+            "y": -980
+        }
+    },
+    "cowall": {
+        "ico": {
+            "url": "**/img/svg/labelX.svg",
+            "width": 160,
+            "height": 160
+        },
+        "height": 240,
+        "hide": false,
+        "displayName": false,
+        "strongHide": false
+    },
+    "wall": {
+        "thickness": 240,
+        "displayName": false,
+        "normalWallSrc": "**/img/wall/tongyong.png",
+        "lightSteelWallSrc": "**/img/wall/qinggang.png",
+        "lightBrickWallSrc": "**/img/wall/qingzhi.png",
+        "fixtureWallSrc": "**/img/wall/gangjin.png",
+        "bearingwallSrc": "**/img/wall/black.png"
+    },
+    "room": {
+        "displayName": false
+    },
+    "point": {
+        "displayName": false
+    },
+    "floor": {
+        "imgUrl": "**/img/svg/test/1.jpg",
+        "size": {
+            "width": 1600,
+            "height": 3200
+        }
+    },
+    "door": {
+        "ico": {
+            "url": "**/img/svg/labelX.svg",
+            "width": 160,
+            "height": 160
+        },
+        "onePlankUrl": "**/img/svg/door/oneDoor.svg",
+        "pullPlankUrl": "**/img/svg/door/moveDoor.svg",
+        "twoPlankUrl": "**/img/svg/door/twoDoor.svg",
+        "momSonPlankUrl": "**/img/svg/door/unequalDoubleDoor.svg",
+        "labelHeight": 620,
+        "buttonHeight": 780
+    },
+    "win": {
+        "ico": {
+            "url": "**/img/svg/labelX.svg",
+            "width": 160,
+            "height": 160
+        },
+        "normalWinUrl": "**/img/svg/door/window.svg",
+        "floorWinUrl": "**/img/svg/door/underWindow.svg",
+        "labelHeight": 620,
+        "buttonHeight": 780
+    },
+    "LWin": {
+        "j2dUrl": "**/2D/lwin1.j2d"
+    },
+    "UWin": {
+        "j2dUrl": "**/2D/uwin2.j2d"
+    },
+    "furniture": {
+        "rotateIco": "**/img/svg/furnitureRotate.svg",
+        "radius": 1280,
+        "icoSize": {
+            "width": 480,
+            "height": 480
+        }
+    },
+    "cornerWin": {
+        "thickness": 240,
+        "ico": {
+            "url": "**/img/svg/labelX.svg",
+            "width": 160,
+            "height": 160
+        },
+        "widthHight": 240,
+        "depthHeight": 240
+    }
+}
