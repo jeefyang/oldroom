@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>zj</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.6;  Revision: 59</authoring_tool>
+      <source_data>file:///C:/Users/zj/Desktop/door.max</source_data>
+    </contributor>
+    <created>2017-11-20T15:23:12</created>
+    <modified>2017-11-20T15:23:12</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="ColorEffectR6G135B58">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <ambient>
+              <color>0.02352941 0.5294118 0.227451 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.02352941 0.5294118 0.227451 1</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent>
+              <color>1 1 1 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="ColorEffectR6G135B58-material" name="ColorEffectR6G135B58-material">
+      <instance_effect url="#ColorEffectR6G135B58"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-Box001" name="Box001">
+      <mesh>
+        <source id="geom-Box001-positions">
+          <float_array id="geom-Box001-positions-array" count="72">-0.45 -0.12 0 0.45 -0.12 0 -0.45 0.12 0 0.45 0.12 0 -0.45 -0.12 2.4 0.45 -0.12 2.4 -0.45 0.12 2.4 0.45 0.12 2.4 -0.33 -0.12 0 0.33 -0.12 0 0.33 -0.12 2.28 -0.33 -0.12 2.28 0.33 0.12 0 -0.33 0.12 0 -0.33 0.12 2.28 0.33 0.12 2.28 -0.2760734 0.005680829 0 0.1296904 -0.514853 0 -0.2760737 0.005680591 2.28 0.1296901 -0.5148532 2.28 -0.3312818 -0.03735489 0 0.07448208 -0.5578887 0 -0.331282 -0.03735512 2.28 0.07448179 -0.557889 2.28</float_array>
+          <technique_common>
+            <accessor source="#geom-Box001-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Box001-normals">
+          <float_array id="geom-Box001-normals-array" count="276">0 0 0.9999999 0 0 1 0 0 0.9999999 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 -6.20882e-8 -1 -3.2678e-9 -6.20882e-8 -1 -3.2678e-9 -6.20882e-8 -1 -3.2678e-9 0 -0.9999999 0 0 -0.9999999 0 0 -1 0 0 -0.9999999 0 0 -1 0 0 -1 0 6.20882e-8 -1 0 6.20882e-8 -1 0 6.20882e-8 -1 0 -3.26779e-9 -1 -3.2678e-9 -3.2678e-9 -1 -3.2678e-9 -3.26779e-9 -1 -3.2678e-9 0 1 0 0 1 0 0 1 0 -6.20882e-8 1 3.2678e-9 -6.20882e-8 1 3.2678e-9 -6.20882e-8 1 3.2678e-9 0 0.9999999 0 0 0.9999999 0 0 1 0 0 0.9999999 0 0 1 0 0 1 0 6.20882e-8 1 0 6.20882e-8 1 0 6.20882e-8 1 0 -3.26779e-9 1 3.2678e-9 -3.2678e-9 1 3.2678e-9 -3.26779e-9 1 3.2678e-9 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.7886878 0.6147938 1.6738e-7 0.7886878 0.6147938 1.6738e-7 0.7886878 0.6147938 1.6738e-7 0.7886878 0.6147938 1.6738e-7 -0.7886878 -0.6147938 -1.6738e-7 -0.7886878 -0.6147938 -1.6738e-7 -0.7886878 -0.6147938 -1.6738e-7 -0.7886878 -0.6147938 -1.6738e-7 0 0 -0.9999999 0 0 -1 0 0 -1 0 0 -1 0.6147941 -0.7886876 -2.11179e-9 0.6147941 -0.7886877 -2.11179e-9 0.6147941 -0.7886876 -2.11179e-9 0.6147941 -0.7886877 -2.11179e-9 0 0 0.9999999 0 0 0.9999999 0 0 1 0 0 1 -0.6147938 0.7886879 2.11186e-9 -0.6147937 0.7886879 2.11186e-9 -0.6147938 0.7886879 2.11186e-9 -0.6147937 0.7886879 2.11186e-9</float_array>
+          <technique_common>
+            <accessor source="#geom-Box001-normals-array" count="92" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-Box001-map1">
+          <float_array id="geom-Box001-map1-array" count="156">0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#geom-Box001-map1-array" count="52" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-Box001-vertices">
+          <input semantic="POSITION" source="#geom-Box001-positions"/>
+        </vertices>
+        <triangles material="ColorMaterial" count="40">
+          <input semantic="VERTEX" source="#geom-Box001-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-Box001-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#geom-Box001-map1" offset="2" set="0"/>
+          <p>4 0 0 5 1 1 7 2 3 7 2 3 6 3 2 4 0 0 1 4 8 3 5 9 7 6 11 7 6 11 5 7 10 1 4 8 2 8 16 0 9 17 4 10 19 4 10 19 6 11 18 2 8 16 1 12 5 5 13 7 10 14 22 10 15 22 9 16 21 1 17 5 5 18 7 4 19 6 11 20 23 11 21 23 10 22 22 5 23 7 4 24 6 0 25 4 8 26 20 8 27 20 11 28 23 4 29 6 2 30 13 6 31 15 14 32 26 14 33 26 13 34 25 2 35 13 6 36 15 7 37 14 15 38 27 15 39 27 14 40 26 6 41 15 7 42 14 3 43 12 12 44 24 12 45 24 15 46 27 7 47 14 3 48 3 1 49 1 9 50 9 9 50 9 12 51 12 3 48 3 12 52 12 9 53 9 10 54 10 10 54 10 15 55 15 12 52 12 15 56 15 10 57 10 11 58 11 11 58 11 14 59 14 15 56 15 14 60 14 11 61 11 8 62 8 8 62 8 13 63 13 14 60 14 13 64 13 8 65 8 0 66 0 0 66 0 2 67 2 13 64 13 16 68 28 18 69 30 19 70 31 19 70 31 17 71 29 16 68 28 20 72 32 21 73 33 23 74 35 23 74 35 22 75 34 20 72 32 16 76 36 17 77 37 21 78 39 21 78 39 20 79 38 16 76 36 17 80 40 19 81 41 23 82 43 23 82 43 21 83 42 17 80 40 19 84 44 18 85 45 22 86 47 22 86 47 23 87 46 19 84 44 18 88 48 16 89 49 20 90 51 20 90 51 22 91 50 18 88 48</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-Box001" name="Box001">
+        <instance_geometry url="#geom-Box001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="ColorMaterial" target="#ColorEffectR6G135B58-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="int">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="int">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

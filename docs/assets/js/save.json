@@ -1,0 +1,332 @@
+[
+    {
+        "id": "floorplan1",
+        "flag": 0,
+        "type": "floorplan",
+        "mode": "drag",
+        "roomsID": [],
+        "wallWidth": 12,
+        "nextID": 8,
+        "chooseObj": {
+            "type": null,
+            "id": null
+        },
+        "floorID": null
+    },
+    {
+        "id": "point4",
+        "flag": 0,
+        "type": "point",
+        "pos": {
+            "x": 5141,
+            "y": 4859
+        },
+        "cowallsID": [
+            "cowall8",
+            "cowall14"
+        ]
+    },
+    {
+        "id": "point5",
+        "flag": 0,
+        "type": "point",
+        "pos": {
+            "x": 5141,
+            "y": 5247
+        },
+        "cowallsID": [
+            "cowall8",
+            "cowall10"
+        ]
+    },
+    {
+        "id": "point6",
+        "flag": 0,
+        "type": "point",
+        "pos": {
+            "x": 4784,
+            "y": 5247
+        },
+        "cowallsID": [
+            "cowall10",
+            "cowall12"
+        ]
+    },
+    {
+        "id": "point7",
+        "flag": 0,
+        "type": "point",
+        "pos": {
+            "x": 4784,
+            "y": 4859
+        },
+        "cowallsID": [
+            "cowall12",
+            "cowall14"
+        ]
+    },
+    {
+        "id": "cowall8",
+        "flag": 0,
+        "type": "cowall",
+        "pointsID": [
+            "point4",
+            "point5"
+        ],
+        "roomID": "room16",
+        "furnituresID": [],
+        "nextID": "cowall10",
+        "prevID": "cowall14",
+        "edgeID": "wall9",
+        "partnerID": null,
+        "reversed": false,
+        "wallTextureIndex": {
+            "inWall": 0,
+            "outWall": 0
+        },
+        "hasProfile": {
+            "inWallKickLine": true,
+            "outWallKickLine": false,
+            "inWallPlaster": true,
+            "outWallPlaster": false
+        },
+        "profileStyle": {
+            "inWallKickLine": 0,
+            "outWallKickLine": 0,
+            "inWallPlasterLine": 0,
+            "outWallPlasterLine": 0
+        },
+        "profileTextureIndex": {
+            "inWallKickLine": 0,
+            "outWallKickLine": 0,
+            "inWallPlaster": 0,
+            "outWallPlaster": 0
+        }
+    },
+    {
+        "id": "cowall10",
+        "flag": 0,
+        "type": "cowall",
+        "pointsID": [
+            "point5",
+            "point6"
+        ],
+        "roomID": "room16",
+        "furnituresID": [],
+        "nextID": "cowall12",
+        "prevID": "cowall8",
+        "edgeID": "wall11",
+        "partnerID": null,
+        "reversed": false,
+        "wallTextureIndex": {
+            "inWall": 0,
+            "outWall": 0
+        },
+        "hasProfile": {
+            "inWallKickLine": true,
+            "outWallKickLine": false,
+            "inWallPlaster": true,
+            "outWallPlaster": false
+        },
+        "profileStyle": {
+            "inWallKickLine": 0,
+            "outWallKickLine": 0,
+            "inWallPlasterLine": 0,
+            "outWallPlasterLine": 0
+        },
+        "profileTextureIndex": {
+            "inWallKickLine": 0,
+            "outWallKickLine": 0,
+            "inWallPlaster": 0,
+            "outWallPlaster": 0
+        }
+    },
+    {
+        "id": "cowall12",
+        "flag": 0,
+        "type": "cowall",
+        "pointsID": [
+            "point6",
+            "point7"
+        ],
+        "roomID": "room16",
+        "furnituresID": [],
+        "nextID": "cowall14",
+        "prevID": "cowall10",
+        "edgeID": "wall13",
+        "partnerID": null,
+        "reversed": false,
+        "wallTextureIndex": {
+            "inWall": 0,
+            "outWall": 0
+        },
+        "hasProfile": {
+            "inWallKickLine": true,
+            "outWallKickLine": false,
+            "inWallPlaster": true,
+            "outWallPlaster": false
+        },
+        "profileStyle": {
+            "inWallKickLine": 0,
+            "outWallKickLine": 0,
+            "inWallPlasterLine": 0,
+            "outWallPlasterLine": 0
+        },
+        "profileTextureIndex": {
+            "inWallKickLine": 0,
+            "outWallKickLine": 0,
+            "inWallPlaster": 0,
+            "outWallPlaster": 0
+        }
+    },
+    {
+        "id": "cowall14",
+        "flag": 0,
+        "type": "cowall",
+        "pointsID": [
+            "point7",
+            "point4"
+        ],
+        "roomID": "room16",
+        "furnituresID": [
+            "furniture18"
+        ],
+        "nextID": "cowall8",
+        "prevID": "cowall12",
+        "edgeID": "wall15",
+        "partnerID": null,
+        "reversed": false,
+        "wallTextureIndex": {
+            "inWall": 0,
+            "outWall": 0
+        },
+        "hasProfile": {
+            "inWallKickLine": true,
+            "outWallKickLine": false,
+            "inWallPlaster": true,
+            "outWallPlaster": false
+        },
+        "profileStyle": {
+            "inWallKickLine": 0,
+            "outWallKickLine": 0,
+            "inWallPlasterLine": 0,
+            "outWallPlasterLine": 0
+        },
+        "profileTextureIndex": {
+            "inWallKickLine": 0,
+            "outWallKickLine": 0,
+            "inWallPlaster": 0,
+            "outWallPlaster": 0
+        }
+    },
+    {
+        "id": "wall9",
+        "flag": 0,
+        "type": "wall",
+        "coedgeID": "cowall8",
+        "width": 12
+    },
+    {
+        "id": "wall11",
+        "flag": 0,
+        "type": "wall",
+        "coedgeID": "cowall10",
+        "width": 12
+    },
+    {
+        "id": "wall13",
+        "flag": 0,
+        "type": "wall",
+        "coedgeID": "cowall12",
+        "width": 12
+    },
+    {
+        "id": "wall15",
+        "flag": 0,
+        "type": "wall",
+        "coedgeID": "cowall14",
+        "width": 12
+    },
+    {
+        "id": "floor17",
+        "flag": 0,
+        "type": "floor",
+        "mainPoly": {
+            "img": {
+                "url": "./assets/threeAssets/maps/floorMaps/map002.jpg",
+                "size": {
+                    "width": 128,
+                    "height": 128
+                },
+                "radian": 0
+            },
+            "poly": null,
+            "pos": {
+                "x": 0,
+                "y": 0
+            },
+            "zoom": 1,
+            "radian": 0
+        },
+        "polyArr": [],
+        "roomID": "room16",
+        "floorTextureIndex": 0
+    },
+    {
+        "id": "room16",
+        "flag": 0,
+        "type": "room",
+        "parentID": null,
+        "cowallsID": [
+            "cowall8",
+            "cowall10",
+            "cowall12",
+            "cowall14"
+        ],
+        "floorID": "floor17",
+        "rootTextureIndex": 0
+    },
+    {
+        "id": "furniture18",
+        "flag": 1,
+        "type": "furniture",
+        "mode": "move",
+        "url2D": "./assets/model/furniture/chuang02/overlook.png",
+        "url3D": "./assets/model/furniture/chuang02/chuang02.DAE",
+        "pos": {
+            "x": 4901,
+            "y": 4940
+        },
+        "radian": 0,
+        "size": {
+            "width": 133.33333333333334,
+            "height": 150,
+            "height3D": 69.13333333333334
+        },
+        "mirror": false,
+        "cowallID": "cowall14",
+        "distancePer": 0.3986064277523167,
+        "modelYPos": 0
+    },
+    {
+        "id": "camera3",
+        "flag": 0,
+        "type": "camera",
+        "mode": "move",
+        "radian": 0.7853981633974483,
+        "headUrl": "./assets/img/camera/head.svg",
+        "headSize": {
+            "width": 70,
+            "height": 93.33333333333333
+        },
+        "rotateSize": {
+            "width": 70,
+            "height": 25.2
+        },
+        "rotateUrl": "./assets/img/camera/rotate.svg",
+        "pos": {
+            "x": 5000,
+            "y": 5000
+        }
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "icon": "#icon-chexiao",
+        "text": "撤销",
+        "hot":"(Ctrl Z)"
+    },
+    {
+        "icon": "#icon-huifu",
+        "text": "还原",
+        "hot":"(Ctrl Y)"
+    },
+    {
+        "icon":"#icon-huifu",
+        "text":"显示",
+        "dropList":[
+            {
+               "name":"面积",
+               "isSelect":true 
+            },
+            {
+                "name":"尺寸",
+                "isSelect":true 
+            },
+            {
+                "name":"房间类型",
+                "isSelect":true  
+            },
+            {
+                "name":"网格",
+                "isSelect":true 
+            },
+            {
+                "name":"地板",
+                "isSelect":true
+            }
+        ]
+    }
+]

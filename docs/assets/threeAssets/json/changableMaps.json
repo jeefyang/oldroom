@@ -1,0 +1,40 @@
+[
+    {
+        "type": "wall",
+        "mapUrls": [
+            "assets/threeAssets/maps/wallPaper/shihuiqiang.jpg",
+            "assets/threeAssets/maps/wallPaper/wallPaper001.jpg",
+            "assets/threeAssets/maps/wallPaper/wallPaper002.jpg",
+            "assets/threeAssets/maps/wallPaper/wallPaper003.jpg"
+        ]
+    },
+    {
+        "type":"floor",
+        "mapUrls":[
+            "assets/threeAssets/maps/floorMaps/map001.jpg",
+            "assets/threeAssets/maps/floorMaps/map002.jpg",
+            "assets/threeAssets/maps/floorMaps/map003.jpg"
+        ]
+    },
+    {
+        "type":"kickline",
+        "mapUrls":[
+            "assets/threeAssets/maps/kickLine/001.jpg",
+            "assets/threeAssets/maps/kickLine/002.jpg",
+            "assets/threeAssets/maps/kickLine/003.jpg"
+        ]
+    },
+    {
+        "type":"plasterLine",
+        "mapUrls":[
+            "assets/threeAssets/maps/plasterLine/001.jpg"
+        ]
+    },
+    {
+        "type":"doorFrame",
+        "mapUrls":[
+            "assets/threeAssets/maps/doorFrameMaps/map001.jpg",
+            "assets/threeAssets/maps/doorFrameMaps/map002.jpg"
+        ]
+    }
+]

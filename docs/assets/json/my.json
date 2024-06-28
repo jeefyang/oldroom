@@ -1,0 +1,682 @@
+[
+    {
+        "id": "floorplan3",
+        "flag": 0,
+        "type": "floorplan",
+        "mode": null,
+        "roomsID": [
+            "room16",
+            "room16",
+            "room46",
+            "room48"
+        ],
+        "cowallIDs": [
+            "cowall33",
+            "cowall43",
+            "cowall56",
+            "cowall59"
+        ]
+    },
+    {
+        "wall": {
+            "thickness": 16
+        },
+        "cowall": {
+            "ico": {
+                "url": "./assets/img/x.svg",
+                "width": 10,
+                "height": 10
+            },
+            "height": 10,
+            "hide": false
+        },
+        "point": {},
+        "floorplan": {
+            "ruler": "mm",
+            "mm": 15,
+            "nextID": 61,
+            "top": 0,
+            "left": 0,
+            "zoom": 1,
+            "block": false
+        },
+        "back": {
+            "pattern": {
+                "width": 100,
+                "split": 5
+            },
+            "size": {
+                "width": 4000,
+                "height": 4000
+            }
+        },
+        "floor": {
+            "imgUrl": "./assets/loadImg/floor/1.jpg",
+            "size": {
+                "width": 100,
+                "height": 200
+            }
+        }
+    },
+    {
+        "id": "point4",
+        "flag": 0,
+        "type": "point",
+        "mode": null,
+        "pos": {
+            "x": 241,
+            "y": 231
+        },
+        "cowallIDs": [
+            "cowall8",
+            "cowall39"
+        ]
+    },
+    {
+        "id": "point5",
+        "flag": 0,
+        "type": "point",
+        "mode": null,
+        "pos": {
+            "x": 633,
+            "y": 231
+        },
+        "cowallIDs": [
+            "cowall8",
+            "cowall10"
+        ]
+    },
+    {
+        "id": "point6",
+        "flag": 0,
+        "type": "point",
+        "mode": null,
+        "pos": {
+            "x": 633,
+            "y": 575
+        },
+        "cowallIDs": [
+            "cowall12",
+            "cowall36"
+        ]
+    },
+    {
+        "id": "point7",
+        "flag": 0,
+        "type": "point",
+        "mode": null,
+        "pos": {
+            "x": 241,
+            "y": 575
+        },
+        "cowallIDs": [
+            "cowall12",
+            "cowall14"
+        ]
+    },
+    {
+        "id": "point31",
+        "flag": 0,
+        "type": "point",
+        "mode": null,
+        "pos": {
+            "x": 128,
+            "y": 373
+        },
+        "cowallIDs": [
+            "cowall33"
+        ]
+    },
+    {
+        "id": "point32",
+        "flag": 0,
+        "type": "point",
+        "mode": null,
+        "pos": {
+            "x": 707,
+            "y": 367
+        },
+        "cowallIDs": [
+            "cowall43"
+        ]
+    },
+    {
+        "id": "point35",
+        "flag": 0,
+        "type": "point",
+        "mode": null,
+        "pos": {
+            "x": 633,
+            "y": 367.7668393782384
+        },
+        "cowallIDs": [
+            "cowall36",
+            "cowall10",
+            "cowall43",
+            "cowall41",
+            "cowall45"
+        ]
+    },
+    {
+        "id": "point38",
+        "flag": 0,
+        "type": "point",
+        "mode": null,
+        "pos": {
+            "x": 241,
+            "y": 371.82901554404145
+        },
+        "cowallIDs": [
+            "cowall39",
+            "cowall14",
+            "cowall33",
+            "cowall41",
+            "cowall45"
+        ]
+    },
+    {
+        "id": "point54",
+        "flag": 0,
+        "type": "point",
+        "mode": null,
+        "pos": {
+            "x": 241,
+            "y": 99
+        },
+        "cowallIDs": [
+            "cowall56"
+        ]
+    },
+    {
+        "id": "point55",
+        "flag": 0,
+        "type": "point",
+        "mode": null,
+        "pos": {
+            "x": 388,
+            "y": 160
+        },
+        "cowallIDs": [
+            "cowall56",
+            "cowall59"
+        ]
+    },
+    {
+        "id": "point58",
+        "flag": 0,
+        "type": "point",
+        "mode": null,
+        "pos": {
+            "x": 479,
+            "y": 99
+        },
+        "cowallIDs": [
+            "cowall59"
+        ]
+    },
+    {
+        "id": "cowall8",
+        "flag": 0,
+        "type": "cowall",
+        "mode": null,
+        "pointIDs": [
+            "point4",
+            "point5"
+        ],
+        "roomID": "room46",
+        "nextID": "cowall10",
+        "prevID": "cowall39",
+        "edgeID": "wall9",
+        "partnerID": null,
+        "reversed": false
+    },
+    {
+        "id": "cowall10",
+        "flag": 0,
+        "type": "cowall",
+        "mode": null,
+        "pointIDs": [
+            "point5",
+            "point35"
+        ],
+        "roomID": "room46",
+        "nextID": "cowall45",
+        "prevID": "cowall8",
+        "edgeID": "wall11",
+        "partnerID": null,
+        "reversed": false
+    },
+    {
+        "id": "cowall12",
+        "flag": 0,
+        "type": "cowall",
+        "mode": null,
+        "pointIDs": [
+            "point6",
+            "point7"
+        ],
+        "roomID": "room48",
+        "nextID": "cowall14",
+        "prevID": "cowall36",
+        "edgeID": "wall13",
+        "partnerID": null,
+        "reversed": false
+    },
+    {
+        "id": "cowall14",
+        "flag": 0,
+        "type": "cowall",
+        "mode": null,
+        "pointIDs": [
+            "point7",
+            "point38"
+        ],
+        "roomID": "room48",
+        "nextID": "cowall41",
+        "prevID": "cowall12",
+        "edgeID": "wall15",
+        "partnerID": null,
+        "reversed": false
+    },
+    {
+        "id": "cowall33",
+        "flag": 0,
+        "type": "cowall",
+        "mode": null,
+        "pointIDs": [
+            "point31",
+            "point38"
+        ],
+        "roomID": null,
+        "nextID": null,
+        "prevID": null,
+        "edgeID": "wall34",
+        "partnerID": null,
+        "reversed": false
+    },
+    {
+        "id": "cowall36",
+        "flag": 0,
+        "type": "cowall",
+        "mode": null,
+        "pointIDs": [
+            "point35",
+            "point6"
+        ],
+        "roomID": "room48",
+        "nextID": "cowall12",
+        "prevID": "cowall41",
+        "edgeID": "wall37",
+        "partnerID": null,
+        "reversed": false
+    },
+    {
+        "id": "cowall39",
+        "flag": 0,
+        "type": "cowall",
+        "mode": null,
+        "pointIDs": [
+            "point38",
+            "point4"
+        ],
+        "roomID": "room46",
+        "nextID": "cowall8",
+        "prevID": "cowall45",
+        "edgeID": "wall40",
+        "partnerID": null,
+        "reversed": false
+    },
+    {
+        "id": "cowall41",
+        "flag": 0,
+        "type": "cowall",
+        "mode": null,
+        "pointIDs": [
+            "point38",
+            "point35"
+        ],
+        "roomID": "room48",
+        "nextID": "cowall36",
+        "prevID": "cowall14",
+        "edgeID": "wall42",
+        "partnerID": "cowall45",
+        "reversed": false
+    },
+    {
+        "id": "cowall43",
+        "flag": 0,
+        "type": "cowall",
+        "mode": null,
+        "pointIDs": [
+            "point35",
+            "point32"
+        ],
+        "roomID": null,
+        "nextID": null,
+        "prevID": null,
+        "edgeID": "wall44",
+        "partnerID": null,
+        "reversed": false
+    },
+    {
+        "id": "cowall45",
+        "flag": 0,
+        "type": "cowall",
+        "mode": null,
+        "pointIDs": [
+            "point35",
+            "point38"
+        ],
+        "roomID": "room46",
+        "nextID": "cowall39",
+        "prevID": "cowall10",
+        "edgeID": "wall42",
+        "partnerID": "cowall41",
+        "reversed": false
+    },
+    {
+        "id": "cowall56",
+        "flag": 0,
+        "type": "cowall",
+        "mode": null,
+        "pointIDs": [
+            "point54",
+            "point55"
+        ],
+        "roomID": null,
+        "nextID": "cowall59",
+        "prevID": null,
+        "edgeID": "wall57",
+        "partnerID": null,
+        "reversed": false
+    },
+    {
+        "id": "cowall59",
+        "flag": 0,
+        "type": "cowall",
+        "mode": null,
+        "pointIDs": [
+            "point55",
+            "point58"
+        ],
+        "roomID": null,
+        "nextID": null,
+        "prevID": "cowall56",
+        "edgeID": "wall60",
+        "partnerID": null,
+        "reversed": false
+    },
+    {
+        "id": "wall9",
+        "flag": 0,
+        "type": "wall",
+        "mode": null,
+        "coedgeID": "cowall8",
+        "thickness": 16,
+        "doorIDs": [],
+        "winIDs": [
+            "win50"
+        ]
+    },
+    {
+        "id": "wall11",
+        "flag": 0,
+        "type": "wall",
+        "mode": null,
+        "coedgeID": "cowall10",
+        "thickness": 16,
+        "doorIDs": [],
+        "winIDs": []
+    },
+    {
+        "id": "wall13",
+        "flag": 0,
+        "type": "wall",
+        "mode": null,
+        "coedgeID": "cowall12",
+        "thickness": 16,
+        "doorIDs": [],
+        "winIDs": []
+    },
+    {
+        "id": "wall15",
+        "flag": 0,
+        "type": "wall",
+        "mode": null,
+        "coedgeID": "cowall14",
+        "thickness": 16,
+        "doorIDs": [],
+        "winIDs": []
+    },
+    {
+        "id": "wall34",
+        "flag": 0,
+        "type": "wall",
+        "mode": null,
+        "coedgeID": "cowall33",
+        "thickness": 16,
+        "doorIDs": [],
+        "winIDs": []
+    },
+    {
+        "id": "wall37",
+        "flag": 0,
+        "type": "wall",
+        "mode": null,
+        "coedgeID": "cowall36",
+        "thickness": 16,
+        "doorIDs": [
+            "door51"
+        ],
+        "winIDs": []
+    },
+    {
+        "id": "wall40",
+        "flag": 0,
+        "type": "wall",
+        "mode": null,
+        "coedgeID": "cowall39",
+        "thickness": 16,
+        "doorIDs": [],
+        "winIDs": []
+    },
+    {
+        "id": "wall42",
+        "flag": 0,
+        "type": "wall",
+        "mode": null,
+        "coedgeID": "cowall41",
+        "thickness": 16,
+        "doorIDs": [],
+        "winIDs": []
+    },
+    {
+        "id": "wall44",
+        "flag": 0,
+        "type": "wall",
+        "mode": null,
+        "coedgeID": "cowall43",
+        "thickness": 16,
+        "doorIDs": [],
+        "winIDs": []
+    },
+    {
+        "id": "wall57",
+        "flag": 0,
+        "type": "wall",
+        "mode": null,
+        "coedgeID": "cowall56",
+        "thickness": 16,
+        "doorIDs": [],
+        "winIDs": []
+    },
+    {
+        "id": "wall60",
+        "flag": 0,
+        "type": "wall",
+        "mode": null,
+        "coedgeID": "cowall59",
+        "thickness": 16,
+        "doorIDs": [],
+        "winIDs": []
+    },
+    {
+        "id": "floor33",
+        "flag": 0,
+        "type": "floor",
+        "mode": null,
+        "roomID": "room32",
+        "radian": 0,
+        "size": {
+            "width": 100,
+            "height": 200
+        },
+        "imgUrl": "./assets/loadImg/floor/1.jpg"
+    },
+    {
+        "id": "floor36",
+        "flag": 0,
+        "type": "floor",
+        "mode": null,
+        "roomID": "room35",
+        "radian": 0,
+        "size": {
+            "width": 100,
+            "height": 200
+        },
+        "imgUrl": "./assets/loadImg/floor/1.jpg"
+    },
+    {
+        "id": "floor47",
+        "flag": 0,
+        "type": "floor",
+        "mode": null,
+        "roomID": "room46",
+        "radian": 0,
+        "size": {
+            "width": 100,
+            "height": 200
+        },
+        "imgUrl": "./assets/loadImg/floor/1.jpg"
+    },
+    {
+        "id": "floor49",
+        "flag": 0,
+        "type": "floor",
+        "mode": null,
+        "roomID": "room48",
+        "radian": 0,
+        "size": {
+            "width": 100,
+            "height": 200
+        },
+        "imgUrl": "./assets/loadImg/floor/1.jpg"
+    },
+    {
+        "id": "room46",
+        "flag": 0,
+        "type": "room",
+        "mode": null,
+        "parentID": null,
+        "cowallIDs": [
+            "cowall45",
+            "cowall39",
+            "cowall8",
+            "cowall10"
+        ],
+        "floorID": "floor47"
+    },
+    {
+        "id": "room48",
+        "flag": 0,
+        "type": "room",
+        "mode": null,
+        "parentID": null,
+        "cowallIDs": [
+            "cowall36",
+            "cowall12",
+            "cowall14",
+            "cowall41"
+        ],
+        "floorID": "floor49"
+    },
+    {
+        "id": "door51",
+        "flag": 0,
+        "type": "door",
+        "mode": null,
+        "wallID": "wall37",
+        "pos": {
+            "x": 633,
+            "y": 520
+        },
+        "size": {
+            "width": 800,
+            "height": 240
+        },
+        "mirror": false,
+        "out": false,
+        "distancePer": 0.7345984598459845,
+        "oldWallID": "wall42",
+        "radian": 1.5707963267948966,
+        "url3D": null
+    },
+    {
+        "id": "win50",
+        "flag": 0,
+        "type": "win",
+        "mode": null,
+        "wallID": "wall9",
+        "pos": {
+            "x": 432,
+            "y": 231
+        },
+        "size": {
+            "width": 800,
+            "height": 240
+        },
+        "mirror": false,
+        "out": false,
+        "distancePer": 0.4872448979591837,
+        "radian": 0,
+        "url3D": null
+    },
+    {
+        "id": "furniture53",
+        "flag": 0,
+        "type": "furniture",
+        "mode": "move",
+        "url2D": "assets/model/furniture/sofa2/overlook.png",
+        "url3D": null,
+        "pos": {
+            "x": 420,
+            "y": 478
+        },
+        "radian": -0.010362323390277204,
+        "size": {
+            "width": 2009,
+            "height": 1093
+        },
+        "mirror": false,
+        "distancePer": 0.9585968352286014
+    },
+    {
+        "id": "cornerWin52",
+        "flag": 0,
+        "type": "cornerWin",
+        "mode": "move",
+        "pos": {
+            "x": 625,
+            "y": 239
+        },
+        "LThickness": 16,
+        "LWidth": 100,
+        "LDepth": 100,
+        "LRadian": 3.141592653589793,
+        "DThickness": 16,
+        "DWidth": 100,
+        "DDepth": 100,
+        "DRadian": 1.5707963267948966,
+        "pointID": "point5"
+    }
+]

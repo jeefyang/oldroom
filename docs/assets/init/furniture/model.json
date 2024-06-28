@@ -1,0 +1,428 @@
+[
+    {
+        "id": "五百装饰灯",
+        "first": "照明",
+        "scend": "吊灯灯",
+        "third": "装饰灯",
+        "type": "furniture",
+        "size": {
+            "width": 350,
+            "height": 350,
+            "height3D": 1000
+        },
+        "svgUrl": "/model/furniture/deng01/D01D.png",
+        "imgUrl": "/model/furniture/deng01/D01.jpg",
+        "modelUrl": "/model/furniture/deng01/D01.DAE"
+    },
+    {
+        "id": "五百电视柜",
+        "first": "家电",
+        "scend": "电视",
+        "third": "电视柜",
+        "type": "furniture",
+        "size": {
+            "width": 1600,
+            "height": 300,
+            "height3D": 600
+        },
+        "svgUrl": "/model/furniture/dsg01/d01d.png",
+        "imgUrl": "/model/furniture/dsg01/d01.jpg",
+        "modelUrl": "/model/furniture/dsg01/dsg01.DAE"
+    },
+    {
+        "id": "五百电视柜02",
+        "first": "家电",
+        "scend": "电视",
+        "third": "电视柜",
+        "type": "furniture",
+        "size": {
+            "width": 2000,
+            "height": 300,
+            "height3D": 1000
+        },
+        "svgUrl": "/model/furniture/dsg02/dd02.png",
+        "imgUrl": "/model/furniture/dsg02/d02.jpg",
+        "modelUrl": "/model/furniture/dsg02/dsg02.DAE"
+    },
+    {
+        "id": "五百吸顶灯02",
+        "first": "照明",
+        "scend": "吊灯灯",
+        "third": "装饰灯",
+        "type": "furniture",
+        "size": {
+            "width": 1000,
+            "height": 1000,
+            "height3D": 700
+        },
+        "floorHeight": 0,
+        "svgUrl": "/model/furniture/xdd02/dXDD02.png",
+        "imgUrl": "/model/furniture/xdd02/xdd02.jpg",
+        "modelUrl": "/model/furniture/xdd02/xdd02.DAE"
+    },
+    {
+        "id": "五百吸顶灯",
+        "first": "照明",
+        "scend": "吊灯灯",
+        "third": "装饰灯",
+        "type": "furniture",
+        "size": {
+            "width": 450,
+            "height": 400,
+            "height3D": 150
+        },
+        "floorHeight": 0,
+        "svgUrl": "/model/furniture/xdd01/x01D.png",
+        "imgUrl": "/model/furniture/xdd01/X01.jpg",
+        "modelUrl": "/model/furniture/xdd01/xdd01.DAE"
+    },
+    {
+        "id": "五百空调",
+        "first": "家电",
+        "scend": "空调",
+        "type": "furniture",
+        "size": {
+            "width": 900,
+            "height": 100,
+            "height3D": 250
+        },
+        "floorHeight": 2000,
+        "svgUrl": "/model/furniture/kt01/k01d.png",
+        "imgUrl": "/model/furniture/kt01/k01.jpg",
+        "modelUrl": "/model/furniture/kt01/kt01.DAE"
+    },
+    {
+        "id": "五百盆栽03",
+        "first": "家饰",
+        "scend": "植物",
+        "third": "绿植",
+        "type": "furniture",
+        "size": {
+            "width": 726,
+            "height": 663,
+            "height3D": 1225
+        },
+        "svgUrl": "/model/furniture/zhiwu03/dzw02.png",
+        "imgUrl": "/model/furniture/zhiwu03/zw02.jpg",
+        "modelUrl": "/model/furniture/zhiwu03/zw03.DAE"
+    },
+    {
+        "id": "五百盆栽",
+        "first": "家饰",
+        "scend": "植物",
+        "third": "绿植",
+        "type": "furniture",
+        "size": {
+            "width": 600,
+            "height": 550,
+            "height3D": 700
+        },
+        "svgUrl": "/model/furniture/zw02/z02d.png",
+        "imgUrl": "/model/furniture/zw02/z02.jpg",
+        "modelUrl": "/model/furniture/zw02/zw02.DAE"
+    },
+    {
+        "id": "五百植物",
+        "first": "家饰",
+        "scend": "植物",
+        "third": "绿植",
+        "type": "furniture",
+        "size": {
+            "width": 600,
+            "height": 500,
+            "height3D": 700
+        },
+        "svgUrl": "/model/furniture/zw01/z01d.png",
+        "imgUrl": "/model/furniture/zw01/z01.jpg",
+        "modelUrl": "/model/furniture/zw01/zw01.DAE"
+    },
+    {
+        "id": "五百开关",
+        "first": "家电",
+        "scend": "开关",
+        "type": "furniture",
+        "size": {
+            "width": 180,
+            "height": 15,
+            "height3D": 80
+        },
+        "floorHeight": 1100,
+        "svgUrl": "/model/furniture/kg01/k01d.png",
+        "imgUrl": "/model/furniture/kg01/K01.jpg",
+        "modelUrl": "/model/furniture/kg01/kg01.DAE"
+    },
+    {
+        "id": "五百衣柜",
+        "first": "家具",
+        "scend": "柜架",
+        "third": "衣柜",
+        "type": "furniture",
+        "size": {
+            "width": 1186,
+            "height": 400,
+            "height3D": 1600
+        },
+        "svgUrl": "/model/furniture/yg01/y01d.png",
+        "imgUrl": "/model/furniture/yg01/y01.jpg",
+        "modelUrl": "/model/furniture/yg01/yg01.DAE"
+    },
+    {
+        "id": "华广餐边柜",
+        "first": "家具",
+        "scend": "柜架",
+        "third": "餐边柜",
+        "type": "furniture",
+        "size": {
+            "width": 1386,
+            "height": 400,
+            "height3D": 600
+        },
+        "svgUrl": "/model/furniture/yg01/y01d.png",
+        "imgUrl": "/model/huaGuangModel/CBG1/chugui.jpg",
+        "hgUrl": "http://www.3dhome360.com/ZJ/mapReader_withPreLoad/?co=qy#https://3dhome360.com/LZN/model/huaGuangModel/CBG1/CBG1.map",
+        "modelUrl": "/model/huaGuangModel/CBG1/CBG1.map"
+    },
+    {
+        "id": "华广餐边柜2",
+        "first": "家具",
+        "scend": "柜架",
+        "third": "餐边柜",
+        "type": "furniture",
+        "size": {
+            "width": 2130,
+            "height": 320,
+            "height3D": 2400
+        },
+        "svgUrl": "/model/furniture/yg01/y01d.png",
+        "imgUrl": "/model/huaGuangModel/CBG2/衣柜1.jpg",
+        "hgUrl": "http://www.3dhome360.com/ZJ/mapReader_withPreLoad/?co=qy#https://3dhome360.com/LZN/model/huaGuangModel/CBG2/CBG2.map",
+        "modelUrl": "/model/huaGuangModel/CBG2/CBG2.map"
+    },
+    {
+        "id": "华广餐边柜3",
+        "first": "家具",
+        "scend": "柜架",
+        "third": "餐边柜",
+        "type": "furniture",
+        "size": {
+            "width": 1756,
+            "height": 320,
+            "height3D": 2480
+        },
+        "svgUrl": "/model/furniture/yg01/y01d.png",
+        "imgUrl": "/model/huaGuangModel/CWG/yigui.jpg",
+        "hgUrl": "http://www.3dhome360.com/ZJ/mapReader_withPreLoad/?co=qy#https://3dhome360.com/LZN/model/huaGuangModel/CWG/CWG.map",
+        "modelUrl": "/model/huaGuangModel/CWG/CWG.map"
+    },
+    {
+        "id": "五百墙画",
+        "first": "家饰",
+        "scend": "墙饰",
+        "third": "装饰画",
+        "type": "furniture",
+        "size": {
+            "width": 650,
+            "height": 100,
+            "height3D": 716
+        },
+        "floorHeight": 1000,
+        "svgUrl": "/model/furniture/hua01/h01d.png",
+        "imgUrl": "/model/furniture/hua01/h01.jpg",
+        "modelUrl": "/model/furniture/hua01/gh01.DAE"
+    },
+    {
+        "id": "五百电视",
+        "first": "家电",
+        "scend": "电视",
+        "third": "电视",
+        "type": "furniture",
+        "size": {
+            "width": 1200,
+            "height": 90,
+            "height3D": 716
+        },
+        "svgUrl": "/model/furniture/tv01/overlook.png",
+        "imgUrl": "/model/furniture/tv01/thumbnail.jpg",
+        "modelUrl": "/model/furniture/tv01/tv01.DAE"
+    },
+    {
+        "id": "窗帘",
+        "first": "家饰",
+        "scend": "布艺软饰",
+        "third": "窗帘",
+        "type": "furniture",
+        "size": {
+            "width": 2000,
+            "height": 200,
+            "height3D": 2622
+        },
+        "svgUrl": "/model/furniture/chuanglian01/overlook.png",
+        "imgUrl": "/model/furniture/chuanglian01/thumbnail.jpg",
+        "modelUrl": "/model/furniture/chuanglian01/cl01.DAE"
+    },
+    {
+        "id": "床头柜",
+        "first": "家具",
+        "scend": "柜架",
+        "third": "床头柜",
+        "type": "furniture",
+        "size": {
+            "width": 400,
+            "height": 300,
+            "height3D": 670
+        },
+        "svgUrl": "/model/furniture/chuangtougui/overlook.png",
+        "imgUrl": "/model/furniture/chuangtougui/thumbnail.jpg",
+        "modelUrl": "/model/furniture/chuangtougui/ctg01.DAE"
+    },
+    {
+        "id": "床头柜02",
+        "first": "家具",
+        "scend": "柜架",
+        "third": "床头柜",
+        "type": "furniture",
+        "size": {
+            "width": 420,
+            "height": 420,
+            "height3D": 690
+        },
+        "svgUrl": "/model/furniture/ctg02/dctg02.png",
+        "imgUrl": "/model/furniture/ctg02/ctg02.jpg",
+        "modelUrl": "/model/furniture/ctg02/ctg02.DAE"
+    },
+    {
+        "id": "华丽桌子",
+        "first": "家具",
+        "scend": "桌子",
+        "third": "餐桌",
+        "type": "furniture",
+        "size": {
+            "width": 1441,
+            "height": 650,
+            "height3D": 778
+        },
+        "svgUrl": "/model/furniture/zuozi01/dsz01.png",
+        "imgUrl": "/model/furniture/zuozi01/s1.jpg",
+        "modelUrl": "/model/furniture/zuozi01/sz01.DAE"
+    },
+    {
+        "id": "华丽桌子02",
+        "first": "家具",
+        "scend": "桌子",
+        "third": "餐桌",
+        "type": "furniture",
+        "size": {
+            "width": 2000,
+            "height": 1300,
+            "height3D": 700
+        },
+        "svgUrl": "/model/furniture/zuozi02/dz02.png",
+        "imgUrl": "/model/furniture/zuozi02/z02.jpg",
+        "modelUrl": "/model/furniture/zuozi02/zz02.DAE"
+    },
+    {
+        "id": "茶几01",
+        "first": "家具",
+        "scend": "桌子",
+        "third": "茶几",
+        "type": "furniture",
+        "size": {
+            "width": 876,
+            "height": 508,
+            "height3D": 531
+        },
+        "svgUrl": "/model/furniture/chaji01/dcj01.png",
+        "imgUrl": "/model/furniture/chaji01/cj01.jpg",
+        "modelUrl": "/model/furniture/chaji01/chaji01.DAE"
+    },
+    {
+        "id": "茶几02",
+        "first": "家具",
+        "scend": "桌子",
+        "third": "茶几",
+        "type": "furniture",
+        "size": {
+            "width": 1241,
+            "height": 648,
+            "height3D": 480
+        },
+        "svgUrl": "/model/furniture/zuozi04/dcj02.png",
+        "imgUrl": "/model/furniture/zuozi04/cj02.jpg",
+        "modelUrl": "/model/furniture/zuozi04/chaji02.DAE"
+    },
+    {
+        "id": "华丽柜",
+        "first": "家具",
+        "scend": "柜架",
+        "third": "衣柜",
+        "type": "furniture",
+        "size": {
+            "width": 1450,
+            "height": 570,
+            "height3D": 571
+        },
+        "svgUrl": "/model/furniture/guizi01/overlook.png",
+        "imgUrl": "/model/furniture/guizi01/thumbnail.jpg",
+        "modelUrl": "/model/furniture/guizi01/guizi01.DAE"
+    },
+    {
+        "id": "衣柜",
+        "first": "家具",
+        "scend": "柜架",
+        "third": "衣柜",
+        "type": "furniture",
+        "size": {
+            "width": 1784,
+            "height": 800,
+            "height3D": 2000
+        },
+        "svgUrl": "/model/furniture/yg02/dy02.png",
+        "imgUrl": "/model/furniture/yg02/y02.jpg",
+        "modelUrl": "/model/furniture/yg02/yg02.DAE"
+    },
+    {
+        "id": "华丽床",
+        "first": "家具",
+        "scend": "床",
+        "third": "多人床",
+        "type": "furniture",
+        "size": {
+            "width": 2000,
+            "height": 2250,
+            "height3D": 1037
+        },
+        "svgUrl": "/model/furniture/chuang02/overlook.png",
+        "imgUrl": "/model/furniture/chuang02/thumbnail.jpg",
+        "modelUrl": "/model/furniture/chuang02/chuang02.DAE"
+    },
+    {
+        "id": "超帅沙发配套",
+        "first": "家具",
+        "scend": "沙发",
+        "third": "多人沙发",
+        "type": "furniture",
+        "size": {
+            "width": 1009.312,
+            "height": 1093.684,
+            "height3D": 960
+        },
+        "svgUrl": "/model/furniture/shafa02/dsf2.png",
+        "imgUrl": "/model/furniture/shafa02/sf2.jpg",
+        "modelUrl": "/model/furniture/shafa02/sf02.DAE"
+    },
+    {
+        "id": "超帅沙发",
+        "first": "家具",
+        "scend": "沙发",
+        "third": "多人沙发",
+        "type": "furniture",
+        "size": {
+            "width": 2009.312,
+            "height": 1093.684,
+            "height3D": 1000
+        },
+        "svgUrl": "/model/furniture/sofa2/overlook.png",
+        "imgUrl": "/model/furniture/sofa2/thumbnail.jpg",
+        "modelUrl": "/model/furniture/sofa2/model.DAE"
+    }
+]

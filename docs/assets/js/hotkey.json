@@ -1,0 +1,20 @@
+[
+    {
+        "name":"boom",
+        "descript":"执行爆炸操作",
+        "key":"ctrl+b",
+        "keyCode":[17,66]
+    },
+    {
+        "name":"fewer",
+        "descript":"执行收起操作",
+        "key":"ctrl+g",
+        "keyCode":[17,71]
+    },
+    {
+        "name":"open",
+        "descript":"执行文件加载操作",
+        "key":"ctrl+o",
+        "keyCode":[17,79]
+    }
+]

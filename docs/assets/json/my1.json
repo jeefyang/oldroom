@@ -1,0 +1,712 @@
+[
+    {
+        "id": 1,
+        "data": [
+            {
+                "id": "floorplan3",
+                "flag": 0,
+                "type": "floorplan",
+                "mode": "back",
+                "roomsID": [],
+                "cowallIDs": [],
+                "backImg": null
+            },
+            {
+                "wall": {
+                    "thickness": 240
+                },
+                "cowall": {
+                    "ico": {
+                        "url": "./assets/img/x.svg",
+                        "width": 160,
+                        "height": 160
+                    },
+                    "height": 240,
+                    "hide": false
+                },
+                "point": {},
+                "floorplan": {
+                    "ruler": "mm",
+                    "mm": 1,
+                    "nextID": 4,
+                    "top": -199651,
+                    "left": -199488,
+                    "zoom": 0.0625,
+                    "opacity": 0.5,
+                    "absorb": {
+                        "minDistance": 320,
+                        "minRadian": 0.05
+                    }
+                },
+                "back": {
+                    "pattern": {
+                        "width": 1600,
+                        "split": 5
+                    },
+                    "size": {
+                        "width": 400000,
+                        "height": 400000
+                    }
+                },
+                "floor": {
+                    "imgUrl": "./assets/loadImg/floor/1.jpg",
+                    "size": {
+                        "width": 1600,
+                        "height": 3200
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "data": [
+            {
+                "id": "floorplan3",
+                "flag": 0,
+                "type": "floorplan",
+                "mode": "back",
+                "roomsID": [
+                    "room16"
+                ],
+                "cowallIDs": [],
+                "backImg": null
+            },
+            {
+                "wall": {
+                    "thickness": 240
+                },
+                "cowall": {
+                    "ico": {
+                        "url": "./assets/img/x.svg",
+                        "width": 160,
+                        "height": 160
+                    },
+                    "height": 240,
+                    "hide": false
+                },
+                "point": {},
+                "floorplan": {
+                    "ruler": "mm",
+                    "mm": 1,
+                    "nextID": 18,
+                    "top": -199651,
+                    "left": -199488,
+                    "zoom": 0.0625,
+                    "opacity": 0.5,
+                    "absorb": {
+                        "minDistance": 320,
+                        "minRadian": 0.05
+                    }
+                },
+                "back": {
+                    "pattern": {
+                        "width": 1600,
+                        "split": 5
+                    },
+                    "size": {
+                        "width": 400000,
+                        "height": 400000
+                    }
+                },
+                "floor": {
+                    "imgUrl": "./assets/loadImg/floor/1.jpg",
+                    "size": {
+                        "width": 1600,
+                        "height": 3200
+                    }
+                }
+            },
+            {
+                "id": "point4",
+                "flag": 0,
+                "type": "point",
+                "mode": null,
+                "pos": {
+                    "x": 196857,
+                    "y": 196372
+                },
+                "cowallIDs": [
+                    "cowall8",
+                    "cowall14"
+                ]
+            },
+            {
+                "id": "point5",
+                "flag": 0,
+                "type": "point",
+                "mode": null,
+                "pos": {
+                    "x": 201764,
+                    "y": 196372
+                },
+                "cowallIDs": [
+                    "cowall8",
+                    "cowall10"
+                ]
+            },
+            {
+                "id": "point6",
+                "flag": 0,
+                "type": "point",
+                "mode": null,
+                "pos": {
+                    "x": 201764,
+                    "y": 202523
+                },
+                "cowallIDs": [
+                    "cowall10",
+                    "cowall12"
+                ]
+            },
+            {
+                "id": "point7",
+                "flag": 0,
+                "type": "point",
+                "mode": null,
+                "pos": {
+                    "x": 196857,
+                    "y": 202523
+                },
+                "cowallIDs": [
+                    "cowall12",
+                    "cowall14"
+                ]
+            },
+            {
+                "id": "cowall8",
+                "flag": 0,
+                "type": "cowall",
+                "mode": null,
+                "pointIDs": [
+                    "point4",
+                    "point5"
+                ],
+                "roomID": "room16",
+                "nextID": "cowall10",
+                "prevID": "cowall14",
+                "edgeID": "wall9",
+                "partnerID": null,
+                "reversed": false
+            },
+            {
+                "id": "cowall10",
+                "flag": 0,
+                "type": "cowall",
+                "mode": null,
+                "pointIDs": [
+                    "point5",
+                    "point6"
+                ],
+                "roomID": "room16",
+                "nextID": "cowall12",
+                "prevID": "cowall8",
+                "edgeID": "wall11",
+                "partnerID": null,
+                "reversed": false
+            },
+            {
+                "id": "cowall12",
+                "flag": 0,
+                "type": "cowall",
+                "mode": null,
+                "pointIDs": [
+                    "point6",
+                    "point7"
+                ],
+                "roomID": "room16",
+                "nextID": "cowall14",
+                "prevID": "cowall10",
+                "edgeID": "wall13",
+                "partnerID": null,
+                "reversed": false
+            },
+            {
+                "id": "cowall14",
+                "flag": 0,
+                "type": "cowall",
+                "mode": null,
+                "pointIDs": [
+                    "point7",
+                    "point4"
+                ],
+                "roomID": "room16",
+                "nextID": "cowall8",
+                "prevID": "cowall12",
+                "edgeID": "wall15",
+                "partnerID": null,
+                "reversed": false
+            },
+            {
+                "id": "wall9",
+                "flag": 0,
+                "type": "wall",
+                "mode": null,
+                "coedgeID": "cowall8",
+                "thickness": 240,
+                "doorIDs": [],
+                "winIDs": []
+            },
+            {
+                "id": "wall11",
+                "flag": 0,
+                "type": "wall",
+                "mode": null,
+                "coedgeID": "cowall10",
+                "thickness": 240,
+                "doorIDs": [],
+                "winIDs": []
+            },
+            {
+                "id": "wall13",
+                "flag": 0,
+                "type": "wall",
+                "mode": null,
+                "coedgeID": "cowall12",
+                "thickness": 240,
+                "doorIDs": [],
+                "winIDs": []
+            },
+            {
+                "id": "wall15",
+                "flag": 0,
+                "type": "wall",
+                "mode": null,
+                "coedgeID": "cowall14",
+                "thickness": 240,
+                "doorIDs": [],
+                "winIDs": []
+            },
+            {
+                "id": "floor17",
+                "flag": 0,
+                "type": "floor",
+                "mode": null,
+                "roomID": "room16",
+                "radian": 0,
+                "size": {
+                    "width": 1600,
+                    "height": 3200
+                },
+                "imgUrl": "./assets/loadImg/floor/1.jpg"
+            },
+            {
+                "id": "room16",
+                "flag": 0,
+                "type": "room",
+                "mode": null,
+                "parentID": null,
+                "cowallIDs": [
+                    "cowall8",
+                    "cowall10",
+                    "cowall12",
+                    "cowall14"
+                ],
+                "floorID": "floor17"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "data": [
+            {
+                "id": "floorplan3",
+                "flag": 0,
+                "type": "floorplan",
+                "mode": "back",
+                "roomsID": [
+                    "room16",
+                    "room26",
+                    "room28"
+                ],
+                "cowallIDs": [],
+                "backImg": null
+            },
+            {
+                "wall": {
+                    "thickness": 240
+                },
+                "cowall": {
+                    "ico": {
+                        "url": "./assets/img/x.svg",
+                        "width": 160,
+                        "height": 160
+                    },
+                    "height": 240,
+                    "hide": false
+                },
+                "point": {},
+                "floorplan": {
+                    "ruler": "mm",
+                    "mm": 1,
+                    "nextID": 31,
+                    "top": -199651,
+                    "left": -199488,
+                    "zoom": 0.0625,
+                    "opacity": 0.5,
+                    "absorb": {
+                        "minDistance": 320,
+                        "minRadian": 0.05
+                    }
+                },
+                "back": {
+                    "pattern": {
+                        "width": 1600,
+                        "split": 5
+                    },
+                    "size": {
+                        "width": 400000,
+                        "height": 400000
+                    }
+                },
+                "floor": {
+                    "imgUrl": "./assets/loadImg/floor/1.jpg",
+                    "size": {
+                        "width": 1600,
+                        "height": 3200
+                    }
+                }
+            },
+            {
+                "id": "point4",
+                "flag": 0,
+                "type": "point",
+                "mode": null,
+                "pos": {
+                    "x": 196857,
+                    "y": 196372
+                },
+                "cowallIDs": [
+                    "cowall14",
+                    "cowall8"
+                ]
+            },
+            {
+                "id": "point5",
+                "flag": 0,
+                "type": "point",
+                "mode": null,
+                "pos": {
+                    "x": 201764,
+                    "y": 196372
+                },
+                "cowallIDs": [
+                    "cowall20",
+                    "cowall10"
+                ]
+            },
+            {
+                "id": "point6",
+                "flag": 0,
+                "type": "point",
+                "mode": null,
+                "pos": {
+                    "x": 201764,
+                    "y": 202523
+                },
+                "cowallIDs": [
+                    "cowall12",
+                    "cowall10"
+                ]
+            },
+            {
+                "id": "point7",
+                "flag": 0,
+                "type": "point",
+                "mode": null,
+                "pos": {
+                    "x": 196857,
+                    "y": 202523
+                },
+                "cowallIDs": [
+                    "cowall22",
+                    "cowall14"
+                ]
+            },
+            {
+                "id": "point18",
+                "flag": 0,
+                "type": "point",
+                "mode": null,
+                "pos": {
+                    "x": 200283,
+                    "y": 196372
+                },
+                "cowallIDs": [
+                    "cowall20",
+                    "cowall24",
+                    "cowall30",
+                    "cowall8"
+                ]
+            },
+            {
+                "id": "point19",
+                "flag": 0,
+                "type": "point",
+                "mode": null,
+                "pos": {
+                    "x": 200283,
+                    "y": 202523
+                },
+                "cowallIDs": [
+                    "cowall22",
+                    "cowall24",
+                    "cowall30",
+                    "cowall12"
+                ]
+            },
+            {
+                "id": "cowall8",
+                "flag": 0,
+                "type": "cowall",
+                "mode": null,
+                "pointIDs": [
+                    "point4",
+                    "point18"
+                ],
+                "roomID": "room26",
+                "nextID": "cowall24",
+                "prevID": "cowall14",
+                "edgeID": "wall9",
+                "partnerID": null,
+                "reversed": false
+            },
+            {
+                "id": "cowall10",
+                "flag": 0,
+                "type": "cowall",
+                "mode": null,
+                "pointIDs": [
+                    "point5",
+                    "point6"
+                ],
+                "roomID": "room28",
+                "nextID": "cowall12",
+                "prevID": "cowall20",
+                "edgeID": "wall11",
+                "partnerID": null,
+                "reversed": false
+            },
+            {
+                "id": "cowall12",
+                "flag": 0,
+                "type": "cowall",
+                "mode": null,
+                "pointIDs": [
+                    "point6",
+                    "point19"
+                ],
+                "roomID": "room28",
+                "nextID": "cowall30",
+                "prevID": "cowall10",
+                "edgeID": "wall13",
+                "partnerID": null,
+                "reversed": false
+            },
+            {
+                "id": "cowall14",
+                "flag": 0,
+                "type": "cowall",
+                "mode": null,
+                "pointIDs": [
+                    "point7",
+                    "point4"
+                ],
+                "roomID": "room26",
+                "nextID": "cowall8",
+                "prevID": "cowall22",
+                "edgeID": "wall15",
+                "partnerID": null,
+                "reversed": false
+            },
+            {
+                "id": "cowall20",
+                "flag": 0,
+                "type": "cowall",
+                "mode": null,
+                "pointIDs": [
+                    "point18",
+                    "point5"
+                ],
+                "roomID": "room28",
+                "nextID": "cowall10",
+                "prevID": "cowall30",
+                "edgeID": "wall21",
+                "partnerID": null,
+                "reversed": false
+            },
+            {
+                "id": "cowall22",
+                "flag": 0,
+                "type": "cowall",
+                "mode": null,
+                "pointIDs": [
+                    "point19",
+                    "point7"
+                ],
+                "roomID": "room26",
+                "nextID": "cowall14",
+                "prevID": "cowall24",
+                "edgeID": "wall23",
+                "partnerID": null,
+                "reversed": false
+            },
+            {
+                "id": "cowall24",
+                "flag": 0,
+                "type": "cowall",
+                "mode": null,
+                "pointIDs": [
+                    "point18",
+                    "point19"
+                ],
+                "roomID": "room26",
+                "nextID": "cowall22",
+                "prevID": "cowall8",
+                "edgeID": "wall25",
+                "partnerID": "cowall30",
+                "reversed": false
+            },
+            {
+                "id": "cowall30",
+                "flag": 0,
+                "type": "cowall",
+                "mode": null,
+                "pointIDs": [
+                    "point19",
+                    "point18"
+                ],
+                "roomID": "room28",
+                "nextID": "cowall20",
+                "prevID": "cowall12",
+                "edgeID": "wall25",
+                "partnerID": "cowall24",
+                "reversed": false
+            },
+            {
+                "id": "wall9",
+                "flag": 0,
+                "type": "wall",
+                "mode": null,
+                "coedgeID": "cowall8",
+                "thickness": 240,
+                "doorIDs": [],
+                "winIDs": []
+            },
+            {
+                "id": "wall11",
+                "flag": 0,
+                "type": "wall",
+                "mode": null,
+                "coedgeID": "cowall10",
+                "thickness": 240,
+                "doorIDs": [],
+                "winIDs": []
+            },
+            {
+                "id": "wall13",
+                "flag": 0,
+                "type": "wall",
+                "mode": null,
+                "coedgeID": "cowall12",
+                "thickness": 240,
+                "doorIDs": [],
+                "winIDs": []
+            },
+            {
+                "id": "wall15",
+                "flag": 0,
+                "type": "wall",
+                "mode": null,
+                "coedgeID": "cowall14",
+                "thickness": 240,
+                "doorIDs": [],
+                "winIDs": []
+            },
+            {
+                "id": "wall21",
+                "flag": 0,
+                "type": "wall",
+                "mode": null,
+                "coedgeID": "cowall20",
+                "thickness": 240,
+                "doorIDs": [],
+                "winIDs": []
+            },
+            {
+                "id": "wall23",
+                "flag": 0,
+                "type": "wall",
+                "mode": null,
+                "coedgeID": "cowall22",
+                "thickness": 240,
+                "doorIDs": [],
+                "winIDs": []
+            },
+            {
+                "id": "wall25",
+                "flag": 0,
+                "type": "wall",
+                "mode": null,
+                "coedgeID": "cowall24",
+                "thickness": 240,
+                "doorIDs": [],
+                "winIDs": []
+            },
+            {
+                "id": "floor27",
+                "flag": 0,
+                "type": "floor",
+                "mode": null,
+                "roomID": "room26",
+                "radian": 0,
+                "size": {
+                    "width": 1600,
+                    "height": 3200
+                },
+                "imgUrl": "./assets/loadImg/floor/1.jpg"
+            },
+            {
+                "id": "floor29",
+                "flag": 0,
+                "type": "floor",
+                "mode": null,
+                "roomID": "room28",
+                "radian": 0,
+                "size": {
+                    "width": 1600,
+                    "height": 3200
+                },
+                "imgUrl": "./assets/loadImg/floor/1.jpg"
+            },
+            {
+                "id": "room26",
+                "flag": 0,
+                "type": "room",
+                "mode": null,
+                "parentID": null,
+                "cowallIDs": [
+                    "cowall24",
+                    "cowall22",
+                    "cowall14",
+                    "cowall8"
+                ],
+                "floorID": "floor27"
+            },
+            {
+                "id": "room28",
+                "flag": 0,
+                "type": "room",
+                "mode": null,
+                "parentID": null,
+                "cowallIDs": [
+                    "cowall30",
+                    "cowall20",
+                    "cowall10",
+                    "cowall12"
+                ],
+                "floorID": "floor29"
+            }
+        ]
+    }
+]

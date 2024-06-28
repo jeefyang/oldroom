@@ -1,0 +1,14 @@
+[
+    {
+        "imgUrl":"assets/threeAssets/thumbnails/plasterLineProfiles/001.jpg",
+        "vertexDataURL": "./assets/threeAssets/json/plasterCorniceDatas/001.json"
+    },
+    {
+        "imgUrl":"assets/threeAssets/thumbnails/plasterLineProfiles/002.jpg",
+        "vertexDataURL": "./assets/threeAssets/json/plasterCorniceDatas/002.json"
+    },
+    {
+        "imgUrl":"assets/threeAssets/thumbnails/plasterLineProfiles/003.jpg",
+        "vertexDataURL": "./assets/threeAssets/json/plasterCorniceDatas/003.json"
+    }
+] 
